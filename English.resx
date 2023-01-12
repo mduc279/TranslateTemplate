@@ -1,0 +1,747 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="(*) The returned time zone {0} does not match with the device's time zone." xml:space="preserve">
+    <value>(*) The returned time zone {0} does not match with the device's time zone.</value>
+  </data>
+  <data name="(*)The returned time zone &quot;{0}&quot; does not match with the device's time zone." xml:space="preserve">
+    <value>(*)The returned time zone "{0}" does not match with the device's time zone.</value>
+  </data>
+  <data name="A new meeting starts shortly." xml:space="preserve">
+    <value>A new meeting starts shortly.</value>
+  </data>
+  <data name="All day events are currently not support." xml:space="preserve">
+    <value>All day events are not support.</value>
+  </data>
+  <data name="An error encountered in synchronizing the template file from the server. Please see logs for more details." xml:space="preserve">
+    <value>An error occurred while sending configuration data to the server. See logs for more details.</value>
+  </data>
+  <data name="An error occurre when send configurations data to server. Please see logs for more details." xml:space="preserve">
+    <value>An error occurred when send configurations data to server. Please see logs for more details.</value>
+  </data>
+  <data name="An error occurred while sending configuration data to the server. See logs for more details." xml:space="preserve">
+    <value>An error occurred while sending configuration data to the server. See logs for more details.</value>
+  </data>
+  <data name="Appointment already existed." xml:space="preserve">
+    <value>Appointment already existed.</value>
+  </data>
+  <data name="Attendees" xml:space="preserve">
+    <value>Attendees</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="Book New Meeting" xml:space="preserve">
+    <value>Book New Meeting</value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>By</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Cannot book meeting as the resource is being occupied." xml:space="preserve">
+    <value>Cannot book reservation as the resource is being occupied.</value>
+  </data>
+  <data name="Cannot connect to server {0}." xml:space="preserve">
+    <value>Cannot connect to server {0}.</value>
+  </data>
+  <data name="Cannot create event when calling Microsoft Graph." xml:space="preserve">
+    <value>Cannot create reservation when using Microsoft Graph.</value>
+  </data>
+  <data name="Cannot create reservation when using Microsoft Graph." xml:space="preserve">
+    <value>Cannot create reservation when using Microsoft Graph.</value>
+  </data>
+  <data name="Cannot delete event when calling Microsoft Graph." xml:space="preserve">
+    <value>Cannot delete reservation when using Microsoft Graph.</value>
+  </data>
+  <data name="Cannot delete reservation when using Microsoft Graph." xml:space="preserve">
+    <value>Cannot delete reservation when using Microsoft Graph.</value>
+  </data>
+  <data name="Cannot end meeting before it starts." xml:space="preserve">
+    <value>Cannot end reservation before it starts.</value>
+  </data>
+  <data name="Cannot End/Extend meeting before it starts." xml:space="preserve">
+    <value>Cannot End/Extend reservtion before it starts.</value>
+  </data>
+  <data name="Cannot End/Extend reservtion before it starts." xml:space="preserve">
+    <value>Cannot End/Extend reservation before it starts.</value>
+  </data>
+  <data name="Cannot extend meeting beyond start time of the next meeting." xml:space="preserve">
+    <value>Cannot extend meeting beyond start time of the next meeting.</value>
+  </data>
+  <data name="Cannot extend meeting. The next meeting starts shortly." xml:space="preserve">
+    <value>Cannot extend meeting. The next meeting starts shortly.</value>
+  </data>
+  <data name="Cannot have the required appointment processed." xml:space="preserve">
+    <value>Cannot process the reservation.</value>
+  </data>
+  <data name="Cannot process the reservation." xml:space="preserve">
+    <value>Cannot process the reservation.</value>
+  </data>
+  <data name="Cannot update event when calling Microsoft Graph." xml:space="preserve">
+    <value>Cannot update reservation when calling Microsoft Graph.</value>
+  </data>
+  <data name="Cannot update reservation when using Microsoft Graph." xml:space="preserve">
+    <value>Cannot update reservation when using Microsoft Graph.</value>
+  </data>
+  <data name="Card expired." xml:space="preserve">
+    <value>ID card has expired.</value>
+  </data>
+  <data name="Card ID or username / password not valid." xml:space="preserve">
+    <value>Card ID or username / password not valid.</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Confirm Success." xml:space="preserve">
+    <value>Confirm Success.</value>
+  </data>
+  <data name="Connection error or server {0} does not support this feature." xml:space="preserve">
+    <value>Connection error or server {0} does not support this feature.</value>
+  </data>
+  <data name="Create report problem is successfully" xml:space="preserve">
+    <value>Problem description successfully saved</value>
+  </data>
+  <data name="Current appointment has not yet been confirmed by the server, please try again in few minutes." xml:space="preserve">
+    <value>This reservation has not been syncronized yet. Please try again later.</value>
+  </data>
+  <data name="Current event organized by" xml:space="preserve">
+    <value>Current meeting organized by</value>
+  </data>
+  <data name="Current meeting organized by" xml:space="preserve">
+    <value>Current meeting organized by</value>
+  </data>
+  <data name="Default Subject" xml:space="preserve">
+    <value>Default Subject</value>
+  </data>
+  <data name="Either email address or account name is wrong." xml:space="preserve">
+    <value>Email address or account name is wrong.</value>
+  </data>
+  <data name="Either Subject, Resource email, Starttime or Endtime is null." xml:space="preserve">
+    <value>Either Subject, Resource email, Starttime or Endtime is null.</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="End current meeting?" xml:space="preserve">
+    <value>End current meeting?</value>
+  </data>
+  <data name="End date  is earlier than Start date." xml:space="preserve">
+    <value>End date  is earlier than Start date.</value>
+  </data>
+  <data name="END OR EXTEND" xml:space="preserve">
+    <value>END OR EXTEND</value>
+  </data>
+  <data name="End Time" xml:space="preserve">
+    <value>End Time</value>
+  </data>
+  <data name="End Time:" xml:space="preserve">
+    <value>End Time:</value>
+  </data>
+  <data name="Endtime is earlier than starttime." xml:space="preserve">
+    <value>Endtime is earlier than starttime.</value>
+  </data>
+  <data name="Enter email address" xml:space="preserve">
+    <value>Enter email address</value>
+  </data>
+  <data name="Enter Password" xml:space="preserve">
+    <value>Enter Password</value>
+  </data>
+  <data name="Enter Your Information" xml:space="preserve">
+    <value>Enter Your Information</value>
+  </data>
+  <data name="Enter your password" xml:space="preserve">
+    <value>Enter your password</value>
+  </data>
+  <data name="Enter your username" xml:space="preserve">
+    <value>Enter your username</value>
+  </data>
+  <data name="Error in configuration file {0}." xml:space="preserve">
+    <value>Error in configuration file {0}.</value>
+  </data>
+  <data name="Error in configuration file." xml:space="preserve">
+    <value>Error in configuration file.</value>
+  </data>
+  <data name="Error in creating appointment. Please check the connection to DSS for Server" xml:space="preserve">
+    <value>Error in creating appointment. Please check the connection to server</value>
+  </data>
+  <data name="Error in creating appointment. Please check the connection to DSS for Server." xml:space="preserve">
+    <value>Error in creating appointment. Please check the connection to DSS for Server.</value>
+  </data>
+  <data name="Error in ending appointment. Please check if [Settings; Server time zone] is correctly selected." xml:space="preserve">
+    <value>Error in ending appointment. Please check if [Settings; Server time zone] is correctly selected.</value>
+  </data>
+  <data name="Error in ending appointment. Please check the connection to DSS for Server." xml:space="preserve">
+    <value>Error in ending appointment. Please check the connection to DSS for Server.</value>
+  </data>
+  <data name="Error in extending appointment. Please check if [Settings; Server time zone] is correctly selected." xml:space="preserve">
+    <value>Error in extending appointment. Please check if [Settings; Server time zone] is correctly selected.</value>
+  </data>
+  <data name="Error in extending appointment. Please check the connection to DSS for Server." xml:space="preserve">
+    <value>Error in extending appointment. Please check the connection to DSS for Server.</value>
+  </data>
+  <data name="Error in the template file {0}." xml:space="preserve">
+    <value>Error in the template file {0}.</value>
+  </data>
+  <data name="Error in the template file." xml:space="preserve">
+    <value>Error in the template file.</value>
+  </data>
+  <data name="Error when create report problem" xml:space="preserve">
+    <value>Error creating problem description</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Meetings</value>
+  </data>
+  <data name="Extend" xml:space="preserve">
+    <value>Extend</value>
+  </data>
+  <data name="EXTEND BOOKING" xml:space="preserve">
+    <value>EXTEND BOOKING</value>
+  </data>
+  <data name="Extend Meeting" xml:space="preserve">
+    <value>Extend Meeting</value>
+  </data>
+  <data name="Extend Reservation" xml:space="preserve">
+    <value>Extend Meeting</value>
+  </data>
+  <data name="Extend time must be greater than end time." xml:space="preserve">
+    <value>The extension time must be longer than the end time.</value>
+  </data>
+  <data name="Failed to set up the association between the user and the card. Please try again later or contact your administrator." xml:space="preserve">
+    <value>Failed to set up the association between the user and the card. Please try again later or contact your administrator.</value>
+  </data>
+  <data name="Floor Map" xml:space="preserve">
+    <value>Floor Map</value>
+  </data>
+  <data name="ID card has expired." xml:space="preserve">
+    <value>ID card has expired.</value>
+  </data>
+  <data name="Invalid card." xml:space="preserve">
+    <value>Invalid card.</value>
+  </data>
+  <data name="Invalid information" xml:space="preserve">
+    <value>Invalid information</value>
+  </data>
+  <data name="Invalid password" xml:space="preserve">
+    <value>Invalid password</value>
+  </data>
+  <data name="Keyboard" xml:space="preserve">
+    <value>Keyboard</value>
+  </data>
+  <data name="List View" xml:space="preserve">
+    <value>List View</value>
+  </data>
+  <data name="Make meeting" xml:space="preserve">
+    <value>Make meeting</value>
+  </data>
+  <data name="Make reservation" xml:space="preserve">
+    <value>Make meeting</value>
+  </data>
+  <data name="Meeting" xml:space="preserve">
+    <value>Meeting</value>
+  </data>
+  <data name="Meeting room is available" xml:space="preserve">
+    <value>Meeting room is available</value>
+  </data>
+  <data name="Meeting room is available now" xml:space="preserve">
+    <value>Meeting room is available now</value>
+  </data>
+  <data name="Meetings" xml:space="preserve">
+    <value>Meetings</value>
+  </data>
+  <data name="Network is unreachable" xml:space="preserve">
+    <value>Network is unreachable</value>
+  </data>
+  <data name="Network is unreachable." xml:space="preserve">
+    <value>Network is unreachable.</value>
+  </data>
+  <data name="NEW BOOKING" xml:space="preserve">
+    <value>NEW BOOKING</value>
+  </data>
+  <data name="NEW RESERVATION" xml:space="preserve">
+    <value>NEW RESERVATION</value>
+  </data>
+  <data name="NEXT BOOKING STARTS SHORTLY" xml:space="preserve">
+    <value>NEXT BOOKING STARTS SHORTLY</value>
+  </data>
+  <data name="Next meeting at {0}" xml:space="preserve">
+    <value>Next meeting at {0}</value>
+  </data>
+  <data name="Next meeting starts shortly" xml:space="preserve">
+    <value>Next meeting starts shortly</value>
+  </data>
+  <data name="Next meetings and events" xml:space="preserve">
+    <value>Next meetings and events</value>
+  </data>
+  <data name="Next reservation at {0}" xml:space="preserve">
+    <value>Next reservation at {0}</value>
+  </data>
+  <data name="Next reservation starts shortly" xml:space="preserve">
+    <value>Next meeting starts shortly</value>
+  </data>
+  <data name="Next reservations and events" xml:space="preserve">
+    <value>Next meetings and events</value>
+  </data>
+  <data name="No further meetings today" xml:space="preserve">
+    <value>No further meetings today</value>
+  </data>
+  <data name="No further meetings today[NEWLINE][NEWLINE]Book a new reservation by tapping the screen" xml:space="preserve">
+    <value>No further meetings today[NEWLINE][NEWLINE]Book a new reservation by tapping the screen</value>
+  </data>
+  <data name="No meetings today" xml:space="preserve">
+    <value>No meetings today</value>
+  </data>
+  <data name="No Network connection" xml:space="preserve">
+    <value>No Network connection</value>
+  </data>
+  <data name="No reservations today" xml:space="preserve">
+    <value>No meetings today</value>
+  </data>
+  <data name="Occupied" xml:space="preserve">
+    <value>Occupied</value>
+  </data>
+  <data name="OCCUPIED {0} - {1}" xml:space="preserve">
+    <value>OCCUPIED {0} - {1}</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Operation failed" xml:space="preserve">
+    <value>Operation failed</value>
+  </data>
+  <data name="Organized by" xml:space="preserve">
+    <value>Organized by</value>
+  </data>
+  <data name="Organizer" xml:space="preserve">
+    <value>Organizer</value>
+  </data>
+  <data name="Organizer Email:" xml:space="preserve">
+    <value>Organizer Email:</value>
+  </data>
+  <data name="Organizer Name:" xml:space="preserve">
+    <value>Organizer Name:</value>
+  </data>
+  <data name="Organizer:" xml:space="preserve">
+    <value>Organizer:</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Password is required." xml:space="preserve">
+    <value>Password is required.</value>
+  </data>
+  <data name="Personal ID" xml:space="preserve">
+    <value>PIN code</value>
+  </data>
+  <data name="Personal ID already existed." xml:space="preserve">
+    <value>PIN code already existed, choose another code.</value>
+  </data>
+  <data name="Personal ID is required." xml:space="preserve">
+    <value>PIN code is required.</value>
+  </data>
+  <data name="Please check your inbox for a validation mail where you can activate your account." xml:space="preserve">
+    <value>Please check your inbox for a validation mail where you can activate your account.</value>
+  </data>
+  <data name="Please confirm the booking. If not confirmed, the booking will be ended after {0} minute(s) after start time." xml:space="preserve">
+    <value>Please confirm the reservation. If not confirmed, it will be ended after {0} minute(s) after start time.</value>
+  </data>
+  <data name="Please confirm the meeting. If not confirmed, the meeting will be ended after {0} minute(s) after start time." xml:space="preserve">
+    <value>Please confirm the meeting. If not confirmed, the meeting will be ended after {0} minutes after start time.</value>
+  </data>
+  <data name="Please confirm the meeting. If not confirmed, the meeting will be ended after {0} minutes after start time." xml:space="preserve">
+    <value>Please confirm the meeting. If not confirmed, the meeting will be ended after {0} minutes after start time.</value>
+  </data>
+  <data name="Please confirm the meeting. If not confirmed, the reservation will be ended after {0} minutes after start time." xml:space="preserve">
+    <value>Please confirm the meeting. If not confirmed, the reservation will be ended after {0} minutes after start time.</value>
+  </data>
+  <data name="Please confirm the meeting. [NEWLINE]If not confirmed, the meeting will be ended after {0} minutes after start time." xml:space="preserve">
+    <value>Please confirm the meeting. [NEWLINE]If not confirmed, the meeting will be ended after {0} minutes after start time.</value>
+  </data>
+  <data name="Please confirm the meeting.[NEWLINE]If not confirmed, the meeting will be ended after {0} minutes after start time.[NEWLINE]" xml:space="preserve">
+    <value>Please confirm the meeting.[NEWLINE]If not confirmed, the meeting will be ended after {0} minutes after start time.[NEWLINE]</value>
+  </data>
+  <data name="Please confirm the reservation. If not confirmed, it will be ended after {0} minute(s) after start time." xml:space="preserve">
+    <value>Please confirm the reservation. If not confirmed, it will be ended after {0} minute(s) after start time.</value>
+  </data>
+  <data name="Please confirm the reservation. If not confirmed, the reservation will be ended after {0} minute(s) after start time." xml:space="preserve">
+    <value>Please confirm the meeting. If not confirmed, the reservation will be ended after {0} minutes after start time.</value>
+  </data>
+  <data name="Please input a comment" xml:space="preserve">
+    <value>Please input a comment</value>
+  </data>
+  <data name="Please tap the screen to book instant meeting" xml:space="preserve">
+    <value>Please tap the screen to book instant meeting</value>
+  </data>
+  <data name="Please tap the screen to book new meeting" xml:space="preserve">
+    <value>Please tap the screen to book new meeting</value>
+  </data>
+  <data name="Please tap the screen to book new reservation" xml:space="preserve">
+    <value>Please tap the screen to book new meeting</value>
+  </data>
+  <data name="Please tap the screen to end/extend current meeting" xml:space="preserve">
+    <value>Please tap the screen to end/extend current meeting</value>
+  </data>
+  <data name="Please tap the screen to end/extend the meeting" xml:space="preserve">
+    <value>Please tap the screen to end/extend the meeting</value>
+  </data>
+  <data name="Please tap the screen to end/extend the reservation" xml:space="preserve">
+    <value>Please tap the screen to end/extend the meeting</value>
+  </data>
+  <data name="Re-enter personal ID is incorrect." xml:space="preserve">
+    <value>PIN codes are not the same.</value>
+  </data>
+  <data name="Remote Restart" xml:space="preserve">
+    <value>Remote Restart</value>
+  </data>
+  <data name="Report a problem" xml:space="preserve">
+    <value>Report a problem</value>
+  </data>
+  <data name="Report problem" xml:space="preserve">
+    <value>Report problem</value>
+  </data>
+  <data name="Reservation" xml:space="preserve">
+    <value>Meeting</value>
+  </data>
+  <data name="Resource" xml:space="preserve">
+    <value>Resource</value>
+  </data>
+  <data name="Resource does not exist." xml:space="preserve">
+    <value>Resource does not exist.</value>
+  </data>
+  <data name="Resource email {0} does not exist in Exchange Server." xml:space="preserve">
+    <value>Resource email {0} does not exist in Exchange Server.</value>
+  </data>
+  <data name="Resource Email:" xml:space="preserve">
+    <value>Resource Email:</value>
+  </data>
+  <data name="Resource Name:" xml:space="preserve">
+    <value>Resource Name:</value>
+  </data>
+  <data name="Resource or Meeting organizer does not exist." xml:space="preserve">
+    <value>Resource or Meeting organizer does not exist.</value>
+  </data>
+  <data name="Resource or organizer does not exist." xml:space="preserve">
+    <value>Resource or Meeting organizer does not exist.</value>
+  </data>
+  <data name="Resource Status From" xml:space="preserve">
+    <value>Resource Status From</value>
+  </data>
+  <data name="Room" xml:space="preserve">
+    <value>Mødelokale</value>
+  </data>
+  <data name="Room schedule today" xml:space="preserve">
+    <value>Room schedule today</value>
+  </data>
+  <data name="Select Date" xml:space="preserve">
+    <value>Select Date</value>
+  </data>
+  <data name="Sending heartbeat to server {0} failed." xml:space="preserve">
+    <value>Sending heartbeat to server {0} failed.</value>
+  </data>
+  <data name="Server request timed out." xml:space="preserve">
+    <value>Server request timed out.</value>
+  </data>
+  <data name="Show all meeting rooms" xml:space="preserve">
+    <value>Show all meeting rooms</value>
+  </data>
+  <data name="Show all rooms" xml:space="preserve">
+    <value>Show all meeting rooms</value>
+  </data>
+  <data name="Show only unused meeting rooms" xml:space="preserve">
+    <value>Show only unused meeting rooms</value>
+  </data>
+  <data name="Show only used meeting rooms" xml:space="preserve">
+    <value>Show only used meeting rooms</value>
+  </data>
+  <data name="Something went wrong in communication with the Server. Please check connection." xml:space="preserve">
+    <value>Something went wrong in communication with the Server. Please check connection.</value>
+  </data>
+  <data name="Something went wrong in DSS for Server. Please check the connection to it." xml:space="preserve">
+    <value>Something went wrong in communication with the Server. Please check connection.</value>
+  </data>
+  <data name="Start Time" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Subject:" xml:space="preserve">
+    <value>Subject:</value>
+  </data>
+  <data name="Success." xml:space="preserve">
+    <value>Success.</value>
+  </data>
+  <data name="Swipe your card" xml:space="preserve">
+    <value>Swipe your card</value>
+  </data>
+  <data name="Tab screen to reserve the meeting room" xml:space="preserve">
+    <value>Tab screen to reserve the meeting room</value>
+  </data>
+  <data name="TAP TO BOOK" xml:space="preserve">
+    <value>TAP TO BOOK</value>
+  </data>
+  <data name="TAP TO END/EXTEND BOOKING" xml:space="preserve">
+    <value>TAP TO END/EXTEND BOOKING</value>
+  </data>
+  <data name="The config of Modern Authentication has error." xml:space="preserve">
+    <value>The configuration of Modern Authentication has errors, contact the Administrator.</value>
+  </data>
+  <data name="The configuration &amp; template has been refreshed" xml:space="preserve">
+    <value>The configuration &amp; template has been refreshed</value>
+  </data>
+  <data name="The end date you entered occurs before the start date." xml:space="preserve">
+    <value>End date  is earlier than Start date.</value>
+  </data>
+  <data name="The link between the user and card was unsuccessful, please try again later or contact your administrator." xml:space="preserve">
+    <value>Failed to set up the association between the user and the card. Please try again later or contact your administrator.</value>
+  </data>
+  <data name="The meeting room is available" xml:space="preserve">
+    <value>The meeting room is available</value>
+  </data>
+  <data name="The meeting will start shortly." xml:space="preserve">
+    <value>The meeting will start shortly.</value>
+  </data>
+  <data name="The resource is invisible." xml:space="preserve">
+    <value>The resource is invisible.</value>
+  </data>
+  <data name="The resource with email {0} does not exist." xml:space="preserve">
+    <value>The resource with email {0} does not exist.</value>
+  </data>
+  <data name="The resource {0} does not have its corresponding exchange server." xml:space="preserve">
+    <value>The resource {0} does not have its corresponding exchange server.</value>
+  </data>
+  <data name="The selected resource is not available." xml:space="preserve">
+    <value>The selected resource is not available.</value>
+  </data>
+  <data name="The template cannot be loaded after it is downloaded from the local machine." xml:space="preserve">
+    <value>The template cannot be loaded after it is downloaded from the local machine.</value>
+  </data>
+  <data name="The template cannot be reloaded when it is retrieved from local machine." xml:space="preserve">
+    <value>The template cannot be loaded after it is downloaded from the local machine.</value>
+  </data>
+  <data name="There is an error(s) when getting server information api from {0} ." xml:space="preserve">
+    <value>There is an error(s) when getting server information api from {0} .</value>
+  </data>
+  <data name="There is an error(s) when getting server information api from {0}." xml:space="preserve">
+    <value>There is an error(s) when getting server information api from {0} .</value>
+  </data>
+  <data name="This Card has been disabled by the Administrator." xml:space="preserve">
+    <value>This Card has been disabled by the Administrator.</value>
+  </data>
+  <data name="This card is valid from {0} to {1}." xml:space="preserve">
+    <value>This card is valid from {0} to {1}.</value>
+  </data>
+  <data name="This device has not approved the configuration file." xml:space="preserve">
+    <value>This device has not approved the configuration file.</value>
+  </data>
+  <data name="This device is waiting for approval from this server." xml:space="preserve">
+    <value>This device is waiting for approval from this server.</value>
+  </data>
+  <data name="This digital sign was not registered correctly on the server side\nPlease close app and do the configuration again" xml:space="preserve">
+    <value>This digital sign was not registered correctly on the server side\nPlease close app and do the configuration again</value>
+  </data>
+  <data name="This function has been disabled by the Administrator." xml:space="preserve">
+    <value>This function has been disabled by the Administrator.</value>
+  </data>
+  <data name="This function only supports by a newer server version." xml:space="preserve">
+    <value>This function only supports by a newer server version.</value>
+  </data>
+  <data name="This function only supports new server." xml:space="preserve">
+    <value>This function only supports by a newer server version.</value>
+  </data>
+  <data name="This ID Card has been disabled by the Administrator." xml:space="preserve">
+    <value>This ID Card has been disabled by the Administrator.</value>
+  </data>
+  <data name="This meeting starts shortly." xml:space="preserve">
+    <value>The meeting will start shortly.</value>
+  </data>
+  <data name="This reservation has not been syncronized yet. Please try again later." xml:space="preserve">
+    <value>This reservation has not been syncronized yet. Please try again later.</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="to {0}" xml:space="preserve">
+    <value>to {0}</value>
+  </data>
+  <data name="Today meetings and events" xml:space="preserve">
+    <value>Today meetings and events</value>
+  </data>
+  <data name="Today's reservations" xml:space="preserve">
+    <value>Today's reservations</value>
+  </data>
+  <data name="User name" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="User name is required." xml:space="preserve">
+    <value>User name is required.</value>
+  </data>
+  <data name="VACANT UNTIL {0}" xml:space="preserve">
+    <value>VACANT UNTIL {0}</value>
+  </data>
+  <data name="Very soon a new digital sign will be ready for use\nPlease wait while your new digital sign is being enrolled" xml:space="preserve">
+    <value>Very soon a new digital sign will be ready for use\nPlease wait while your new digital sign is being enrolled</value>
+  </data>
+  <data name="Welcome {0}. Your session will end 30 seconds after your last touch on the screen." xml:space="preserve">
+    <value>Welcome {0}. Your session will end 30 seconds after your last touch on the screen.</value>
+  </data>
+  <data name="You can book a new meeting by tapping this screen" xml:space="preserve">
+    <value>You can book a new meeting by tapping this screen</value>
+  </data>
+  <data name="You can only end/extend a meeting if you are the meeting organizer." xml:space="preserve">
+    <value>You can only end/extend a meeting if you are the meeting organizer.</value>
+  </data>
+  <data name="You can only end/extend a meeting if you are the organizer." xml:space="preserve">
+    <value>You can only end/extend a meeting if you are the meeting organizer.</value>
+  </data>
+  <data name="You cannot book this resource because the resource a closed. Opening hours from {0} to {1}." xml:space="preserve">
+    <value>You cannot book this resource because the resource a closed. Opening hours from {0} to {1}.</value>
+  </data>
+  <data name="You cannot book this resource because the resource out of open hours. Opening hours from {0} to {1}." xml:space="preserve">
+    <value>You cannot book this resource because the resource a closed. Opening hours from {0} to {1}.</value>
+  </data>
+  <data name="You need to swipe your card to interact with the screen." xml:space="preserve">
+    <value>You need to swipe your card to interact with the screen.</value>
+  </data>
+  <data name="You've turned off the Kiosk Mode, the application must restart to display Navigation Bar. Click &quot;&quot;OK&quot;&quot; to continue." xml:space="preserve">
+    <value>You've turned off the Kiosk Mode, the application must restart to display Navigation Bar. Click ""OK"" to continue.</value>
+  </data>
+  <data name="You've turned off the Kiosk Mode, the application will automatically restart to display Navigation Bar." xml:space="preserve">
+    <value>You've turned off the Kiosk Mode, the application will automatically restart to display Navigation Bar.</value>
+  </data>
+  <data name="You've turned on the Kiosk Mode, the application must restart to hide Navigation Bar. Click &quot;&quot;OK&quot;&quot; to continue." xml:space="preserve">
+    <value>You've turned on the Kiosk Mode, the application must restart to hide Navigation Bar. Click ""OK"" to continue.</value>
+  </data>
+  <data name="You've turned on the Kiosk Mode, the application will automatically restart to hide Navigation Bar." xml:space="preserve">
+    <value>You've turned on the Kiosk Mode, the application will automatically restart to hide Navigation Bar.</value>
+  </data>
+  <data name="Your account has not been activated." xml:space="preserve">
+    <value>Your account has not been activated.</value>
+  </data>
+  <data name="{0} session has expired." xml:space="preserve">
+    <value>{0} session has expired.</value>
+  </data>
+  <data name="{0}'s session has expired." xml:space="preserve">
+    <value>{0}'s session has expired.</value>
+  </data>
+</root>

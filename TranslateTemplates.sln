@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranslateTemplates", "TranslateTemplates.csproj", "{74F8FD77-DA69-4388-9B5D-2CF7F204191F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74F8FD77-DA69-4388-9B5D-2CF7F204191F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F8FD77-DA69-4388-9B5D-2CF7F204191F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F8FD77-DA69-4388-9B5D-2CF7F204191F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F8FD77-DA69-4388-9B5D-2CF7F204191F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC033468-61EA-47E4-AD93-B6E4D76F291A}
+	EndGlobalSection
+EndGlobal
