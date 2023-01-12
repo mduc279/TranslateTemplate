@@ -1,0 +1,744 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="(*) The returned time zone {0} does not match with the device's time zone." xml:space="preserve">
+    <value>(*) Den returnerede tidszone {0} fra serveren stemmer ikke overens med enhedens tidszone.</value>
+  </data>
+  <data name="(*)The returned time zone &quot;{0}&quot; does not match with the device's time zone." xml:space="preserve">
+    <value>(*) Den returnerede tidszone "{0}" stemmer ikke overens med enhedens tidszone.</value>
+  </data>
+  <data name="A new meeting starts shortly." xml:space="preserve">
+    <value>Et nyt møde starter snart.</value>
+  </data>
+  <data name="All day events are currently not support." xml:space="preserve">
+    <value>Heldagsaftaler understøttes ikke.</value>
+  </data>
+  <data name="An error encountered in synchronizing the template file from the server. Please see logs for more details." xml:space="preserve">
+    <value>Der opstod en fejl under synkronisering af skabelonfilen fra serveren. Se logfiler for flere detaljer.</value>
+  </data>
+  <data name="An error occurre when send configurations data to server. Please see logs for more details." xml:space="preserve">
+    <value>Der opstod en fejl ved afsendelse af konfigurationsdata til serveren. Se logfiler for flere detaljer.</value>
+  </data>
+  <data name="An error occurred while sending configuration data to the server. See logs for more details." xml:space="preserve">
+    <value>Der opstod en fejl under synkronisering af skabelonfilen fra serveren. Se logfiler for flere detaljer.</value>
+  </data>
+  <data name="Appointment already existed." xml:space="preserve">
+    <value>Reservationen findes allerede.</value>
+  </data>
+  <data name="Attendees" xml:space="preserve">
+    <value>Deltagere</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Ledig</value>
+  </data>
+  <data name="Book New Meeting" xml:space="preserve">
+    <value>Book nyt møde</value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>Ved</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuller</value>
+  </data>
+  <data name="Cannot book meeting as the resource is being occupied." xml:space="preserve">
+    <value>Kan ikke reservere reservation, da ressourcen er optaget.</value>
+  </data>
+  <data name="Cannot connect to server {0}." xml:space="preserve">
+    <value>Kan ikke oprette forbindelse til serveren {0}.</value>
+  </data>
+  <data name="Cannot create event when calling Microsoft Graph." xml:space="preserve">
+    <value>Kan ikke oprette reservationen, ved benyttelse af Microsoft Graph.</value>
+  </data>
+  <data name="Cannot create reservation when using Microsoft Graph." xml:space="preserve">
+    <value>Kan ikke oprette reservation, når du bruger Microsoft Graph.</value>
+  </data>
+  <data name="Cannot delete event when calling Microsoft Graph." xml:space="preserve">
+    <value>Kan ikke slette reservationen, ved benyttelse af Microsoft Graph.</value>
+  </data>
+  <data name="Cannot delete reservation when using Microsoft Graph." xml:space="preserve">
+    <value>Kan ikke slette reservation, når du bruger Microsoft Graph.</value>
+  </data>
+  <data name="Cannot end meeting before it starts." xml:space="preserve">
+    <value>Reservationen kan ikke afsluttes, før den starter.</value>
+  </data>
+  <data name="Cannot End/Extend meeting before it starts." xml:space="preserve">
+    <value>Kan ikke afslutte/forlænge reservationen, før den starter.</value>
+  </data>
+  <data name="Cannot extend meeting beyond start time of the next meeting." xml:space="preserve">
+    <value>Kan ikke udvide møde ud over starttidspunktet for det næste møde.</value>
+  </data>
+  <data name="Cannot extend meeting. The next meeting starts shortly." xml:space="preserve">
+    <value>Kan ikke forlænge mødet. Næste møde starter om kort tid.</value>
+  </data>
+  <data name="Cannot have the required appointment processed." xml:space="preserve">
+    <value>Kan ikke behandle den ønskede reservation.</value>
+  </data>
+  <data name="Cannot process the reservation." xml:space="preserve">
+    <value>Kan ikke behandle reservationen.</value>
+  </data>
+  <data name="Cannot update event when calling Microsoft Graph." xml:space="preserve">
+    <value>Kan ikke opdatere reservationen, ved benyttelse af Microsoft Graph.</value>
+  </data>
+  <data name="Cannot update reservation when using Microsoft Graph." xml:space="preserve">
+    <value>Kan ikke opdatere reservation, når du bruger Microsoft Graph.</value>
+  </data>
+  <data name="Card expired." xml:space="preserve">
+    <value>ID-kortet er udløbet.</value>
+  </data>
+  <data name="Card ID or username / password not valid." xml:space="preserve">
+    <value>Kort ID eller brugernavn/kodeord ikke gyldigt.</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Bekræft</value>
+  </data>
+  <data name="Confirm Success." xml:space="preserve">
+    <value>Bekræft succesfuldt.</value>
+  </data>
+  <data name="Connection error or server {0} does not support this feature." xml:space="preserve">
+    <value>Kommunikationsproblemer eller server {0} understøtter ikke denne funktion.</value>
+  </data>
+  <data name="Create report problem is successfully" xml:space="preserve">
+    <value>Problembeskrivelsen blev gemt</value>
+  </data>
+  <data name="Current appointment has not yet been confirmed by the server, please try again in few minutes." xml:space="preserve">
+    <value>Denne reservation er ikke blevet synkroniseret endnu. Prøv venligst igen senere.</value>
+  </data>
+  <data name="Current event organized by" xml:space="preserve">
+    <value>Nuværende møde arrangeret af</value>
+  </data>
+  <data name="Current meeting organized by" xml:space="preserve">
+    <value>Mødeleder</value>
+  </data>
+  <data name="Default Subject" xml:space="preserve">
+    <value>Standard Emne</value>
+  </data>
+  <data name="Either email address or account name is wrong." xml:space="preserve">
+    <value>Enten emailadresse eller kontonavn er forkert.</value>
+  </data>
+  <data name="Either Subject, Resource email, Starttime or Endtime is null." xml:space="preserve">
+    <value>Enten er Emne, Email, Starttidspunkt eller Sluttidspunkt ikke udfyldt.</value>
+  </data>
+  <data name="Email address or account name is wrong." xml:space="preserve">
+    <value>Enten emailadresse eller kontonavn er forkert.</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Slut</value>
+  </data>
+  <data name="End current meeting?" xml:space="preserve">
+    <value>Slut nuværende møde?</value>
+  </data>
+  <data name="End date  is earlier than Start date." xml:space="preserve">
+    <value>Slutdatoen er tidligere end startdatoen.</value>
+  </data>
+  <data name="END OR EXTEND" xml:space="preserve">
+    <value>AFSLUT / FORLÆNG</value>
+  </data>
+  <data name="End Time" xml:space="preserve">
+    <value>Sluttid</value>
+  </data>
+  <data name="End Time:" xml:space="preserve">
+    <value>Sluttid:</value>
+  </data>
+  <data name="Endtime is earlier than starttime." xml:space="preserve">
+    <value>Sluttidspunktet er tidligere end starttidspunktet.</value>
+  </data>
+  <data name="Enter email address" xml:space="preserve">
+    <value>Indtast email-adresse</value>
+  </data>
+  <data name="Enter Password" xml:space="preserve">
+    <value>Indtast adgangskode</value>
+  </data>
+  <data name="Enter Your Information" xml:space="preserve">
+    <value>Indtast dine oplysninger</value>
+  </data>
+  <data name="Enter your password" xml:space="preserve">
+    <value>Skriv dit kodeord</value>
+  </data>
+  <data name="Enter your username" xml:space="preserve">
+    <value>Skriv dit brugernavn</value>
+  </data>
+  <data name="Error in configuration file {0}." xml:space="preserve">
+    <value>Fejl i konfigurationsfil {0}.</value>
+  </data>
+  <data name="Error in configuration file." xml:space="preserve">
+    <value>Fejl i konfigurationsfilen.</value>
+  </data>
+  <data name="Error in creating appointment. Please check the connection to DSS for Server" xml:space="preserve">
+    <value>Fejl ved oprettelse af aftale. Kontroller forbindelsen til server</value>
+  </data>
+  <data name="Error in creating appointment. Please check the connection to DSS for Server." xml:space="preserve">
+    <value>Fejl ved oprettelse af reservationen. Kontroller forbindelsen til DSS for Server.</value>
+  </data>
+  <data name="Error in ending appointment. Please check if [Settings; Server time zone] is correctly selected." xml:space="preserve">
+    <value>Fejl ved afslutning af reservationen. Kontroller venligst, om [Settings; Server tidzone] er korrekt valgt.</value>
+  </data>
+  <data name="Error in ending appointment. Please check the connection to DSS for Server." xml:space="preserve">
+    <value>Fejl ved afslutning af reservationen. Kontroller forbindelsen til DSS for Server.</value>
+  </data>
+  <data name="Error in extending appointment. Please check if [Settings; Server time zone] is correctly selected." xml:space="preserve">
+    <value>Fejl ved forlængelse af reservationen. Kontroller venligst, om [Settings; Server tidzone] er korrekt valgt.</value>
+  </data>
+  <data name="Error in extending appointment. Please check the connection to DSS for Server." xml:space="preserve">
+    <value>Fejl ved forlængelse af reservationen. Kontroller forbindelsen til DSS for Server.</value>
+  </data>
+  <data name="Error in the template file {0}." xml:space="preserve">
+    <value>Fejl i skabelonfilen {0}.</value>
+  </data>
+  <data name="Error in the template file." xml:space="preserve">
+    <value>Fejl i skabelonfilen.</value>
+  </data>
+  <data name="Error when create report problem" xml:space="preserve">
+    <value>Fejl ved oprettelse af problem beskrivelse</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Møder</value>
+  </data>
+  <data name="Extend" xml:space="preserve">
+    <value>Forlæng</value>
+  </data>
+  <data name="EXTEND BOOKING" xml:space="preserve">
+    <value>FORLÆNG RESERVATIONEN</value>
+  </data>
+  <data name="Extend Meeting" xml:space="preserve">
+    <value>Forlæng møde</value>
+  </data>
+  <data name="Extend Reservation" xml:space="preserve">
+    <value>Forlæng reservation</value>
+  </data>
+  <data name="Extend time must be greater than end time." xml:space="preserve">
+    <value>Forlængelsestiden skal være længere end sluttidspunkt.</value>
+  </data>
+  <data name="Floor Map" xml:space="preserve">
+    <value>Lokationsoversigt</value>
+  </data>
+  <data name="ID card has expired." xml:space="preserve">
+    <value>ID-kortet er udløbet.</value>
+  </data>
+  <data name="Invalid card." xml:space="preserve">
+    <value>Ugyldigt kort.</value>
+  </data>
+  <data name="Invalid information" xml:space="preserve">
+    <value>Ugyldig information</value>
+  </data>
+  <data name="Invalid password" xml:space="preserve">
+    <value>Forkert kodeord</value>
+  </data>
+  <data name="Keyboard" xml:space="preserve">
+    <value>Tastatur</value>
+  </data>
+  <data name="List View" xml:space="preserve">
+    <value>Listevisning</value>
+  </data>
+  <data name="Make meeting" xml:space="preserve">
+    <value>Opret møde</value>
+  </data>
+  <data name="Make reservation" xml:space="preserve">
+    <value>Opret møde</value>
+  </data>
+  <data name="Meeting" xml:space="preserve">
+    <value>Møde</value>
+  </data>
+  <data name="Meeting room is available" xml:space="preserve">
+    <value>Mødelokale er ledigt</value>
+  </data>
+  <data name="Meeting room is available now" xml:space="preserve">
+    <value>Mødelokale er ledigt</value>
+  </data>
+  <data name="Meetings" xml:space="preserve">
+    <value>Møder</value>
+  </data>
+  <data name="Network is unreachable" xml:space="preserve">
+    <value>Netværket er ikke tilgængeligt</value>
+  </data>
+  <data name="Network is unreachable." xml:space="preserve">
+    <value>Netværket er ikke tilgængeligt.</value>
+  </data>
+  <data name="NEW BOOKING" xml:space="preserve">
+    <value>NY RESERVATION</value>
+  </data>
+  <data name="NEW RESERVATION" xml:space="preserve">
+    <value>NY RESERVATION</value>
+  </data>
+  <data name="NEXT BOOKING STARTS SHORTLY" xml:space="preserve">
+    <value>NÆSTE RESERVATION STARTER SNART</value>
+  </data>
+  <data name="Next meeting at {0}" xml:space="preserve">
+    <value>Næste møde kl. {0}</value>
+  </data>
+  <data name="Next meeting starts shortly" xml:space="preserve">
+    <value>Næste møde starter om kort tid</value>
+  </data>
+  <data name="Next meetings and events" xml:space="preserve">
+    <value>Næste møder og events</value>
+  </data>
+  <data name="Next reservation at {0}" xml:space="preserve">
+    <value>Næste reservation kl. {0}</value>
+  </data>
+  <data name="Next reservation starts shortly" xml:space="preserve">
+    <value>Næste reservation starter om kort tid</value>
+  </data>
+  <data name="Next reservations and events" xml:space="preserve">
+    <value>Næste reservationer og events</value>
+  </data>
+  <data name="No further meetings today" xml:space="preserve">
+    <value>Ikke flere reservationer i dag</value>
+  </data>
+  <data name="No further meetings today[NEWLINE][NEWLINE]Book a new reservation by tapping the screen" xml:space="preserve">
+    <value>Ikke flere reservationer i dag[NEWLINE][NEWLINE]Lav en ny reservation ved at  klikke på</value>
+  </data>
+  <data name="No meetings today" xml:space="preserve">
+    <value>Ingen møder i dag</value>
+  </data>
+  <data name="No Network connection" xml:space="preserve">
+    <value>Ingen netværksforbindelse</value>
+  </data>
+  <data name="No reservations today" xml:space="preserve">
+    <value>Ingen reservationer i dag</value>
+  </data>
+  <data name="Occupied" xml:space="preserve">
+    <value>Optaget</value>
+  </data>
+  <data name="OCCUPIED {0} - {1}" xml:space="preserve">
+    <value>OPTAGET INDTIL {0} - {1}</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Operation failed" xml:space="preserve">
+    <value>Operation mislykkedes</value>
+  </data>
+  <data name="Organized by" xml:space="preserve">
+    <value>Organiseret af</value>
+  </data>
+  <data name="Organizer" xml:space="preserve">
+    <value>Arrangør</value>
+  </data>
+  <data name="Organizer Email:" xml:space="preserve">
+    <value>Arrangørens e-mail:</value>
+  </data>
+  <data name="Organizer Name:" xml:space="preserve">
+    <value>Arrangørens navn:</value>
+  </data>
+  <data name="Organizer:" xml:space="preserve">
+    <value>Arrangør:</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Adgangskode</value>
+  </data>
+  <data name="Password is required." xml:space="preserve">
+    <value>Adgangskode er påkrævet.</value>
+  </data>
+  <data name="Personal ID" xml:space="preserve">
+    <value>PIN kode</value>
+  </data>
+  <data name="Personal ID already existed." xml:space="preserve">
+    <value>PIN kode eksisterede allerede, vælg en anden kode.</value>
+  </data>
+  <data name="Personal ID is required." xml:space="preserve">
+    <value>PIN kode er påkrævet.</value>
+  </data>
+  <data name="Please check your inbox for a validation mail where you can activate your account." xml:space="preserve">
+    <value>Tjek venligst din indbakke for en valideringsmail, hvor du kan aktivere din konto.</value>
+  </data>
+  <data name="Please confirm the booking. If not confirmed, the booking will be ended after {0} minute(s) after start time." xml:space="preserve">
+    <value>Bekræft venligst reservationen. Hvis ikke bekræftet, afsluttes den efter {0} minut (er) efter starttidspunktet.</value>
+  </data>
+  <data name="Please confirm the meeting. If not confirmed, the meeting will be ended after {0} minute(s) after start time." xml:space="preserve">
+    <value>Bekræft møde. Hvis der ikke bekræftes, afsluttes mødet {0} minuter efter starttidspunkt.</value>
+  </data>
+  <data name="Please confirm the meeting. If not confirmed, the meeting will be ended after {0} minutes after start time." xml:space="preserve">
+    <value>Bekræft venligst mødet. Hvis ikke bekræftet, afsluttes mødet efter {0} minutter efter starttidspunktet.</value>
+  </data>
+  <data name="Please confirm the meeting. If not confirmed, the reservation will be ended after {0} minutes after start time." xml:space="preserve">
+    <value>Bekræft venligst reservation. Hvis der ikke bekræftes, afsluttes reservation {0} minuter efter starttidspunktet.</value>
+  </data>
+  <data name="Please confirm the meeting. [NEWLINE]If not confirmed, the meeting will be ended after {0} minutes after start time." xml:space="preserve">
+    <value>Bekræft møde. [NEWLINE] Hvis der ikke bekræftes, afsluttes mødet {0} minuter efter starttidspunkt.</value>
+  </data>
+  <data name="Please confirm the meeting.[NEWLINE]If not confirmed, the meeting will be ended after {0} minutes after start time.[NEWLINE]" xml:space="preserve">
+    <value>Bekræft møde.[NEWLINE] Hvis der ikke bekræftes, afsluttes mødet {0} minuter efter starttidspunkt.[NEWLINE]</value>
+  </data>
+  <data name="Please confirm the reservation. If not confirmed, it will be ended after {0} minute(s) after start time." xml:space="preserve">
+    <value>Bekræft venligst reservationen. Hvis ikke bekræftet, afsluttes den efter {0} minut (er) efter starttidspunktet.</value>
+  </data>
+  <data name="Please confirm the reservation. If not confirmed, the reservation will be ended after {0} minute(s) after start time." xml:space="preserve">
+    <value>Bekræft venligst reservation. Hvis der ikke bekræftes, afsluttes reservation {0} minuter efter starttidspunktet.</value>
+  </data>
+  <data name="Please input a comment" xml:space="preserve">
+    <value>Indtast venligst en kommentar</value>
+  </data>
+  <data name="Please tap the screen to book instant meeting" xml:space="preserve">
+    <value>Tryk på skærmen for at reservere mødelokale</value>
+  </data>
+  <data name="Please tap the screen to book new meeting" xml:space="preserve">
+    <value>Tryk på skærmen for at reservere mødelokale</value>
+  </data>
+  <data name="Please tap the screen to book new reservation" xml:space="preserve">
+    <value>Tryk på skærmen for at reservere mødelokale</value>
+  </data>
+  <data name="Please tap the screen to end/extend current meeting" xml:space="preserve">
+    <value>Tryk på skærmen for at afslutte eller forlænge  nuværende møde</value>
+  </data>
+  <data name="Please tap the screen to end/extend the meeting" xml:space="preserve">
+    <value>Tryk på skærmen for at afslutte eller forlænge  nuværende møde</value>
+  </data>
+  <data name="Please tap the screen to end/extend the reservation" xml:space="preserve">
+    <value>Tryk på skærmen for at afslutte eller forlænge  nuværende møde</value>
+  </data>
+  <data name="Re-enter personal ID is incorrect." xml:space="preserve">
+    <value>PIN koder er ikke ens.</value>
+  </data>
+  <data name="Remote Restart" xml:space="preserve">
+    <value>Genstart</value>
+  </data>
+  <data name="Report a problem" xml:space="preserve">
+    <value>Rapporter et problem</value>
+  </data>
+  <data name="Report problem" xml:space="preserve">
+    <value>Rapporter problem</value>
+  </data>
+  <data name="Reservation" xml:space="preserve">
+    <value>Reservation</value>
+  </data>
+  <data name="Resource" xml:space="preserve">
+    <value>Ressource</value>
+  </data>
+  <data name="Resource does not exist." xml:space="preserve">
+    <value>Ressource findes ikke.</value>
+  </data>
+  <data name="Resource email {0} does not exist in Exchange Server." xml:space="preserve">
+    <value>Resource email {0} findes ikke i Exchange Server.</value>
+  </data>
+  <data name="Resource Email:" xml:space="preserve">
+    <value>Ressource-e-mail:</value>
+  </data>
+  <data name="Resource Name:" xml:space="preserve">
+    <value>Ressource navn:</value>
+  </data>
+  <data name="Resource or Meeting organizer does not exist." xml:space="preserve">
+    <value>Ressource- eller mødearrangør findes ikke.</value>
+  </data>
+  <data name="Resource or organizer does not exist." xml:space="preserve">
+    <value>Ressource eller mødearrangør eksisterer ikke.</value>
+  </data>
+  <data name="Resource Status From" xml:space="preserve">
+    <value>Fra</value>
+  </data>
+  <data name="Room" xml:space="preserve">
+    <value>Mødelokale</value>
+  </data>
+  <data name="Room schedule today" xml:space="preserve">
+    <value>Oversigt i dag</value>
+  </data>
+  <data name="Select Date" xml:space="preserve">
+    <value>Vælg dato</value>
+  </data>
+  <data name="Sending heartbeat to server {0} failed." xml:space="preserve">
+    <value>Afsendelse af heartbeat til server {0} mislykkedes.</value>
+  </data>
+  <data name="Server request timed out." xml:space="preserve">
+    <value>Server anmodning udløbet.</value>
+  </data>
+  <data name="Show all meeting rooms" xml:space="preserve">
+    <value>Vis alle mødelokaler</value>
+  </data>
+  <data name="Show all rooms" xml:space="preserve">
+    <value>Vis alle mødelokaler</value>
+  </data>
+  <data name="Show only unused meeting rooms" xml:space="preserve">
+    <value>Vis kun ledige mødelokaler</value>
+  </data>
+  <data name="Show only used meeting rooms" xml:space="preserve">
+    <value>Vis kun optaget mødelokaler</value>
+  </data>
+  <data name="Something went wrong in communication with the Server. Please check connection." xml:space="preserve">
+    <value>Noget gik galt i komunikationen med serveren. Kontroller venligst forbindelsen.</value>
+  </data>
+  <data name="Something went wrong in DSS for Server. Please check the connection to it." xml:space="preserve">
+    <value>Kommunikation til serveren ikke muligt. Kontroller forbindelsen til den.</value>
+  </data>
+  <data name="Start Time" xml:space="preserve">
+    <value>Starttidspunkt</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Emne</value>
+  </data>
+  <data name="Subject:" xml:space="preserve">
+    <value>Emne:</value>
+  </data>
+  <data name="Success." xml:space="preserve">
+    <value>Succesfuldt.</value>
+  </data>
+  <data name="Swipe your card" xml:space="preserve">
+    <value>Aflæs dit kort</value>
+  </data>
+  <data name="Tab screen to reserve the meeting room" xml:space="preserve">
+    <value>Tryk på skærmen for at reservere mødelokalet</value>
+  </data>
+  <data name="TAP TO BOOK" xml:space="preserve">
+    <value>TRYK PÅ SKÆRMEN  FOR AT RESERVER</value>
+  </data>
+  <data name="TAP TO END/EXTEND BOOKING" xml:space="preserve">
+    <value>TRYK PÅ SKÆRMEN FOR AT ÆNDRE</value>
+  </data>
+  <data name="The config of Modern Authentication has error." xml:space="preserve">
+    <value>Konfigurationen af Modern Authentication har fejl, kontakt Administrator.</value>
+  </data>
+  <data name="The configuration &amp; template has been refreshed" xml:space="preserve">
+    <value>Konfigurationen og skabelonen er blevet opdateret</value>
+  </data>
+  <data name="The end date you entered occurs before the start date." xml:space="preserve">
+    <value>Slutdatoen er tidligere end startdatoen.</value>
+  </data>
+  <data name="The link between the user and card was unsuccessful, please try again later or contact your administrator." xml:space="preserve">
+    <value>Opsætningen af sammenhængen mellem brugeren og kortet mislykkedes. Prøv venligst igen senere eller kontakt din administrator.</value>
+  </data>
+  <data name="The meeting room is available" xml:space="preserve">
+    <value>Mødelokale er ledigt</value>
+  </data>
+  <data name="The meeting will start shortly." xml:space="preserve">
+    <value>Mødet begynder om kort tid.</value>
+  </data>
+  <data name="The resource is invisible." xml:space="preserve">
+    <value>Ressourcen er usynlig.</value>
+  </data>
+  <data name="The resource with email {0} does not exist." xml:space="preserve">
+    <value>Ressourcen med e-mail {0} eksisterer ikke.</value>
+  </data>
+  <data name="The resource {0} does not have its corresponding exchange server." xml:space="preserve">
+    <value>Resource {0} har ikke den tilsvarende udvekslingsserver.</value>
+  </data>
+  <data name="The selected resource is not available." xml:space="preserve">
+    <value>Den valgte ressource er ikke tilgængelig.</value>
+  </data>
+  <data name="The template cannot be loaded after it is downloaded from the local machine." xml:space="preserve">
+    <value>Skabelonen kan ikke indlæses, efter den er hente fra den lokale maskine.</value>
+  </data>
+  <data name="The template cannot be reloaded when it is retrieved from local machine." xml:space="preserve">
+    <value>Skabelonen kan ikke indlæses, efter den er hente fra den lokale maskine.</value>
+  </data>
+  <data name="There is an error(s) when getting server information api from {0} ." xml:space="preserve">
+    <value>Der er en eller flere fejl, når der hentes serveroplysninger api fra {0}.</value>
+  </data>
+  <data name="There is an error(s) when getting server information api from {0}." xml:space="preserve">
+    <value>Der er en fejl komunikationen til servers API fra {0}.</value>
+  </data>
+  <data name="This Card has been disabled by the Administrator." xml:space="preserve">
+    <value>Dette id-kort er blevet deaktiveret af administratoren.</value>
+  </data>
+  <data name="This card is valid from {0} to {1}." xml:space="preserve">
+    <value>Dette kort er gyldigt fra {0} til {1}.</value>
+  </data>
+  <data name="This device has not approved the configuration file." xml:space="preserve">
+    <value>Denne enhed har ikke godkendt konfigurationsfilen.</value>
+  </data>
+  <data name="This device is waiting for approval from this server." xml:space="preserve">
+    <value>Denne enhed venter på godkendelse fra denne server.</value>
+  </data>
+  <data name="This digital sign was not registered correctly on the server side\nPlease close app and do the configuration again" xml:space="preserve">
+    <value>Dette digitale skilt blev ikke registreret korrekt på serversiden\nLuk appen og foretag konfigurationen igen</value>
+  </data>
+  <data name="This function has been disabled by the Administrator." xml:space="preserve">
+    <value>Denne funktion er blevet deaktiveret af administratoren.</value>
+  </data>
+  <data name="This function only supports by a newer server version." xml:space="preserve">
+    <value>Denne funktion understøttes kun af en nyere server version.</value>
+  </data>
+  <data name="This function only supports new server." xml:space="preserve">
+    <value>Denne funktion understøttes kun af en nyere server version.</value>
+  </data>
+  <data name="This ID Card has been disabled by the Administrator." xml:space="preserve">
+    <value>Dette ID-kort er blevet deaktiveret af administratoren.</value>
+  </data>
+  <data name="This meeting starts shortly." xml:space="preserve">
+    <value>Mødet begynder om kort tid.</value>
+  </data>
+  <data name="This reservation has not been syncronized yet. Please try again later." xml:space="preserve">
+    <value>Denne reservation er ikke blevet synkroniseret endnu. Prøv venligst igen senere.</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>Til</value>
+  </data>
+  <data name="to {0}" xml:space="preserve">
+    <value>til {0}</value>
+  </data>
+  <data name="Today meetings and events" xml:space="preserve">
+    <value>Dagens møder og events</value>
+  </data>
+  <data name="Today's reservations" xml:space="preserve">
+    <value>Dagens reservationer</value>
+  </data>
+  <data name="User name" xml:space="preserve">
+    <value>Brugernavn</value>
+  </data>
+  <data name="User name is required." xml:space="preserve">
+    <value>Brugernavn er påkrævet.</value>
+  </data>
+  <data name="VACANT UNTIL {0}" xml:space="preserve">
+    <value>LEDIGT INDTIL {0}</value>
+  </data>
+  <data name="Very soon a new digital sign will be ready for use\nPlease wait while your new digital sign is being enrolled" xml:space="preserve">
+    <value>Meget snart vil et nyt digitalt skilt være klar til brug\nVent venligst mens dit nye digitale skilt bliver tilmeldt</value>
+  </data>
+  <data name="Welcome {0}. Your session will end 30 seconds after your last touch on the screen." xml:space="preserve">
+    <value>Velkommen {0}. Din session slutter 30 sekunder efter dit sidste tryk på skærmen.</value>
+  </data>
+  <data name="You can book a new meeting by tapping this screen" xml:space="preserve">
+    <value>Du kan reservere mødelokalet ved at trykke på skærmen</value>
+  </data>
+  <data name="You can only end/extend a meeting if you are the meeting organizer." xml:space="preserve">
+    <value>Du kan kun afslutte / udvide et møde, hvis du er mødearrangør.</value>
+  </data>
+  <data name="You can only end/extend a meeting if you are the organizer." xml:space="preserve">
+    <value>Du kan kun afslutte/forlænge et møde, hvis du er mødearrangør.</value>
+  </data>
+  <data name="You cannot book this resource because the resource a closed. Opening hours from {0} to {1}." xml:space="preserve">
+    <value>Du kan ikke booke denne ressource, fordi ressourcen er lukket. Åbningstider fra {0} til {1}.</value>
+  </data>
+  <data name="You cannot book this resource because the resource out of open hours. Opening hours from {0} to {1}." xml:space="preserve">
+    <value>Du kan ikke booke denne ressource, fordi ressourcen er lukket. Åbningstider fra {0} til {1}.</value>
+  </data>
+  <data name="You need to swipe your card to interact with the screen." xml:space="preserve">
+    <value>Du skal aflæse dit kort for at benytte skærmen.</value>
+  </data>
+  <data name="You've turned off the Kiosk Mode, the application must restart to display Navigation Bar. Click &quot;&quot;OK&quot;&quot; to continue." xml:space="preserve">
+    <value>Du har slået Kiosk-tilstanden fra, applikationen skal genstarte for at vise navigationslinjen. Klik på ""OK"" for at fortsætte.</value>
+  </data>
+  <data name="You've turned off the Kiosk Mode, the application will automatically restart to display Navigation Bar." xml:space="preserve">
+    <value>Du har slået kiosktilstand fra, og applikationen genstarter automatisk for at vise navigationslinjen.</value>
+  </data>
+  <data name="You've turned on the Kiosk Mode, the application must restart to hide Navigation Bar. Click &quot;&quot;OK&quot;&quot; to continue." xml:space="preserve">
+    <value>Du har slået Kiosk-tilstand til, applikationen skal genstarte for at skjule navigationslinjen. Klik på ""OK"" for at fortsætte.</value>
+  </data>
+  <data name="You've turned on the Kiosk Mode, the application will automatically restart to hide Navigation Bar." xml:space="preserve">
+    <value>Du har slået kiosktilstanden til, applikationen genstarter automatisk for at skjule navigationslinjen.</value>
+  </data>
+  <data name="Your account has not been activated." xml:space="preserve">
+    <value>Din konto er ikke blevet aktiveret.</value>
+  </data>
+  <data name="{0} session has expired." xml:space="preserve">
+    <value>{0} session er udløbet.</value>
+  </data>
+  <data name="{0}'s session has expired." xml:space="preserve">
+    <value>{0}s session er udløbet.</value>
+  </data>
+</root>

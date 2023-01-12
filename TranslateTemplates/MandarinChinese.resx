@@ -1,0 +1,744 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="(*) The returned time zone {0} does not match with the device's time zone." xml:space="preserve">
+    <value>(*)返回时区{0}与设备时区不相符</value>
+  </data>
+  <data name="(*)The returned time zone &quot;{0}&quot; does not match with the device's time zone." xml:space="preserve">
+    <value>(*)返回时区{0}与设备时区不相符</value>
+  </data>
+  <data name="A new meeting starts shortly." xml:space="preserve">
+    <value>A new meeting starts shortly.</value>
+  </data>
+  <data name="All day events are currently not support." xml:space="preserve">
+    <value>All day events are not support.</value>
+  </data>
+  <data name="An error encountered in synchronizing the template file from the server. Please see logs for more details." xml:space="preserve">
+    <value>An error occurred while sending configuration data to the server. See logs for more details.</value>
+  </data>
+  <data name="An error occurre when send configurations data to server. Please see logs for more details." xml:space="preserve">
+    <value>An error occurred when send configurations data to server. Please see logs for more details.</value>
+  </data>
+  <data name="An error occurred while sending configuration data to the server. See logs for more details." xml:space="preserve">
+    <value>An error occurred while sending configuration data to the server. See logs for more details.</value>
+  </data>
+  <data name="Appointment already existed." xml:space="preserve">
+    <value>会议预约已存在</value>
+  </data>
+  <data name="Attendees" xml:space="preserve">
+    <value>Attendees</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>可以使用</value>
+  </data>
+  <data name="Book New Meeting" xml:space="preserve">
+    <value>预订新会议</value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>经由</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Cannot book meeting as the resource is being occupied." xml:space="preserve">
+    <value>Cannot book reservation as the resource is being occupied.</value>
+  </data>
+  <data name="Cannot connect to server {0}." xml:space="preserve">
+    <value>无法与服务器{0}连接</value>
+  </data>
+  <data name="Cannot create event when calling Microsoft Graph." xml:space="preserve">
+    <value>当使用Microsoft Graph时不能创建预定</value>
+  </data>
+  <data name="Cannot create reservation when using Microsoft Graph." xml:space="preserve">
+    <value>Cannot create reservation when using Microsoft Graph.</value>
+  </data>
+  <data name="Cannot delete event when calling Microsoft Graph." xml:space="preserve">
+    <value>当使用Microsoft Graph时不能删除预定</value>
+  </data>
+  <data name="Cannot delete reservation when using Microsoft Graph." xml:space="preserve">
+    <value>Cannot delete reservation when using Microsoft Graph.</value>
+  </data>
+  <data name="Cannot end meeting before it starts." xml:space="preserve">
+    <value>Cannot end reservation before it starts.</value>
+  </data>
+  <data name="Cannot End/Extend meeting before it starts." xml:space="preserve">
+    <value>Cannot End/Extend reservtion before it starts.</value>
+  </data>
+  <data name="Cannot extend meeting beyond start time of the next meeting." xml:space="preserve">
+    <value>该会议不可延长超过下个会议开始时间</value>
+  </data>
+  <data name="Cannot extend meeting. The next meeting starts shortly." xml:space="preserve">
+    <value>不能延长此会议，下一个会议即将开始</value>
+  </data>
+  <data name="Cannot have the required appointment processed." xml:space="preserve">
+    <value>不能处理这个预定</value>
+  </data>
+  <data name="Cannot process the reservation." xml:space="preserve">
+    <value>Cannot process the reservation.</value>
+  </data>
+  <data name="Cannot update event when calling Microsoft Graph." xml:space="preserve">
+    <value>当使用Microsoft Graph时不能更新预定</value>
+  </data>
+  <data name="Cannot update reservation when using Microsoft Graph." xml:space="preserve">
+    <value>Cannot update reservation when using Microsoft Graph.</value>
+  </data>
+  <data name="Card expired." xml:space="preserve">
+    <value>ID卡已过期</value>
+  </data>
+  <data name="Card ID or username / password not valid." xml:space="preserve">
+    <value>Card ID or username / password not valid.</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="Confirm Success." xml:space="preserve">
+    <value>Confirm Success.</value>
+  </data>
+  <data name="Connection error or server {0} does not support this feature." xml:space="preserve">
+    <value>连接错误或服务器{0}无法支持这个功能</value>
+  </data>
+  <data name="Create report problem is successfully" xml:space="preserve">
+    <value>问题描述成功保存</value>
+  </data>
+  <data name="Current appointment has not yet been confirmed by the server, please try again in few minutes." xml:space="preserve">
+    <value>这个预订还没有被同步化。请稍后再试。</value>
+  </data>
+  <data name="Current event organized by" xml:space="preserve">
+    <value>当前的会议安排人</value>
+  </data>
+  <data name="Current meeting organized by" xml:space="preserve">
+    <value>当前的会议安排人</value>
+  </data>
+  <data name="Default Subject" xml:space="preserve">
+    <value>默认主题</value>
+  </data>
+  <data name="Either email address or account name is wrong." xml:space="preserve">
+    <value>Email address or account name is wrong.</value>
+  </data>
+  <data name="Either Subject, Resource email, Starttime or Endtime is null." xml:space="preserve">
+    <value>该主题，预定资源的电邮，开始时间和结束时间不存在</value>
+  </data>
+  <data name="Email address or account name is wrong." xml:space="preserve">
+    <value>Email address or account name is wrong.</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>结束</value>
+  </data>
+  <data name="End current meeting?" xml:space="preserve">
+    <value>结束当前会议？</value>
+  </data>
+  <data name="End date  is earlier than Start date." xml:space="preserve">
+    <value>End date  is earlier than Start date.</value>
+  </data>
+  <data name="END OR EXTEND" xml:space="preserve">
+    <value>结束或延长</value>
+  </data>
+  <data name="End Time" xml:space="preserve">
+    <value>结束时间</value>
+  </data>
+  <data name="End Time:" xml:space="preserve">
+    <value>结束时间</value>
+  </data>
+  <data name="Endtime is earlier than starttime." xml:space="preserve">
+    <value>结束时间早于开始时间</value>
+  </data>
+  <data name="Enter email address" xml:space="preserve">
+    <value>Enter email address</value>
+  </data>
+  <data name="Enter Password" xml:space="preserve">
+    <value>输入密码</value>
+  </data>
+  <data name="Enter Your Information" xml:space="preserve">
+    <value>输入你的信息</value>
+  </data>
+  <data name="Enter your password" xml:space="preserve">
+    <value>Enter your password</value>
+  </data>
+  <data name="Enter your username" xml:space="preserve">
+    <value>Enter your username</value>
+  </data>
+  <data name="Error in configuration file {0}." xml:space="preserve">
+    <value>配置档案 {0}错误</value>
+  </data>
+  <data name="Error in configuration file." xml:space="preserve">
+    <value>配置档案错误</value>
+  </data>
+  <data name="Error in creating appointment. Please check the connection to DSS for Server" xml:space="preserve">
+    <value>创建会议时出错。请检查服务器连接情况</value>
+  </data>
+  <data name="Error in creating appointment. Please check the connection to DSS for Server." xml:space="preserve">
+    <value>创建会议时出错。请检查DSS与服务器连接情况</value>
+  </data>
+  <data name="Error in ending appointment. Please check if [Settings; Server time zone] is correctly selected." xml:space="preserve">
+    <value>结束会议时出错。请检查 [设置；服务器时区] 是否选择正确。</value>
+  </data>
+  <data name="Error in ending appointment. Please check the connection to DSS for Server." xml:space="preserve">
+    <value>结束会议时出错。请检查DSS连接情况</value>
+  </data>
+  <data name="Error in extending appointment. Please check if [Settings; Server time zone] is correctly selected." xml:space="preserve">
+    <value>延长会议时出错。请检查 [设置；服务器时区] 是否选择正确</value>
+  </data>
+  <data name="Error in extending appointment. Please check the connection to DSS for Server." xml:space="preserve">
+    <value>延长会议时出错。请检查DSS与服务器连接情况。</value>
+  </data>
+  <data name="Error in the template file {0}." xml:space="preserve">
+    <value>模板档案 {0}错误</value>
+  </data>
+  <data name="Error in the template file." xml:space="preserve">
+    <value>模板档案错误</value>
+  </data>
+  <data name="Error when create report problem" xml:space="preserve">
+    <value>错误创建问题描述</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>会议</value>
+  </data>
+  <data name="Extend" xml:space="preserve">
+    <value>延长</value>
+  </data>
+  <data name="EXTEND BOOKING" xml:space="preserve">
+    <value>延长预定</value>
+  </data>
+  <data name="Extend Meeting" xml:space="preserve">
+    <value>延长会议</value>
+  </data>
+  <data name="Extend Reservation" xml:space="preserve">
+    <value>延长会议</value>
+  </data>
+  <data name="Extend time must be greater than end time." xml:space="preserve">
+    <value>延长时间必须长于结束时间。</value>
+  </data>
+  <data name="Floor Map" xml:space="preserve">
+    <value>Floor Map</value>
+  </data>
+  <data name="ID card has expired." xml:space="preserve">
+    <value>ID card has expired.</value>
+  </data>
+  <data name="Invalid card." xml:space="preserve">
+    <value>卡片无效</value>
+  </data>
+  <data name="Invalid information" xml:space="preserve">
+    <value>无效信息</value>
+  </data>
+  <data name="Invalid password" xml:space="preserve">
+    <value>密码错误</value>
+  </data>
+  <data name="Keyboard" xml:space="preserve">
+    <value>键盘</value>
+  </data>
+  <data name="List View" xml:space="preserve">
+    <value>List View</value>
+  </data>
+  <data name="Make meeting" xml:space="preserve">
+    <value>创建会议</value>
+  </data>
+  <data name="Make reservation" xml:space="preserve">
+    <value>创建会议</value>
+  </data>
+  <data name="Meeting" xml:space="preserve">
+    <value>会议</value>
+  </data>
+  <data name="Meeting room is available" xml:space="preserve">
+    <value>会议室可以使用</value>
+  </data>
+  <data name="Meeting room is available now" xml:space="preserve">
+    <value>会议室现在可以使用</value>
+  </data>
+  <data name="Meetings" xml:space="preserve">
+    <value>多个会议</value>
+  </data>
+  <data name="Network is unreachable" xml:space="preserve">
+    <value>Network is unreachable</value>
+  </data>
+  <data name="Network is unreachable." xml:space="preserve">
+    <value>网络无法访问</value>
+  </data>
+  <data name="NEW BOOKING" xml:space="preserve">
+    <value>新预定</value>
+  </data>
+  <data name="NEW RESERVATION" xml:space="preserve">
+    <value>新预订</value>
+  </data>
+  <data name="NEXT BOOKING STARTS SHORTLY" xml:space="preserve">
+    <value>下一个预定马上开始</value>
+  </data>
+  <data name="Next meeting at {0}" xml:space="preserve">
+    <value>下一个会议在 {0}</value>
+  </data>
+  <data name="Next meeting starts shortly" xml:space="preserve">
+    <value>下一个会议马上开始</value>
+  </data>
+  <data name="Next meetings and events" xml:space="preserve">
+    <value>接下来的会议及活动</value>
+  </data>
+  <data name="Next reservation at {0}" xml:space="preserve">
+    <value>下一个会议在 {0}</value>
+  </data>
+  <data name="Next reservation starts shortly" xml:space="preserve">
+    <value>下一个会议马上开始</value>
+  </data>
+  <data name="Next reservations and events" xml:space="preserve">
+    <value>下一个会议和活动</value>
+  </data>
+  <data name="No further meetings today" xml:space="preserve">
+    <value>今天没有其他会议</value>
+  </data>
+  <data name="No further meetings today[NEWLINE][NEWLINE]Book a new reservation by tapping the screen" xml:space="preserve">
+    <value>今天没有其他会议[NEWLINE][NEWLINE]点按屏幕即可进行新的预订</value>
+  </data>
+  <data name="No meetings today" xml:space="preserve">
+    <value>今天没有会议</value>
+  </data>
+  <data name="No Network connection" xml:space="preserve">
+    <value>No Network connection</value>
+  </data>
+  <data name="No reservations today" xml:space="preserve">
+    <value>今天没有会议</value>
+  </data>
+  <data name="Occupied" xml:space="preserve">
+    <value>在使用中</value>
+  </data>
+  <data name="OCCUPIED {0} - {1}" xml:space="preserve">
+    <value>使用中从 {0}到 {1}</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>可以</value>
+  </data>
+  <data name="Operation failed" xml:space="preserve">
+    <value>操作失败</value>
+  </data>
+  <data name="Organized by" xml:space="preserve">
+    <value>由哪个人安排</value>
+  </data>
+  <data name="Organizer" xml:space="preserve">
+    <value>安排人</value>
+  </data>
+  <data name="Organizer Email:" xml:space="preserve">
+    <value>Organizer Email:</value>
+  </data>
+  <data name="Organizer Name:" xml:space="preserve">
+    <value>Organizer Name:</value>
+  </data>
+  <data name="Organizer:" xml:space="preserve">
+    <value>安排人</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="Password is required." xml:space="preserve">
+    <value>需要输入密码</value>
+  </data>
+  <data name="Personal ID" xml:space="preserve">
+    <value>PIN码</value>
+  </data>
+  <data name="Personal ID already existed." xml:space="preserve">
+    <value>PIN码已经存在，请选择其他代码。</value>
+  </data>
+  <data name="Personal ID is required." xml:space="preserve">
+    <value>需要PIN码。</value>
+  </data>
+  <data name="Please check your inbox for a validation mail where you can activate your account." xml:space="preserve">
+    <value>Please check your inbox for a validation mail where you can activate your account.</value>
+  </data>
+  <data name="Please confirm the booking. If not confirmed, the booking will be ended after {0} minute(s) after start time." xml:space="preserve">
+    <value>请确认该预定。如未确认，预定将于开始时间后 {0}分钟后结束</value>
+  </data>
+  <data name="Please confirm the meeting. If not confirmed, the meeting will be ended after {0} minute(s) after start time." xml:space="preserve">
+    <value>请确认会议。如未做确认，这会议将会取消，取消时间为预订会议开始时间后{0}分钟。</value>
+  </data>
+  <data name="Please confirm the meeting. If not confirmed, the meeting will be ended after {0} minutes after start time." xml:space="preserve">
+    <value>请确认会议。如未做确认，这会议将会取消，取消时间为预订会议开始时间后{0}分钟。</value>
+  </data>
+  <data name="Please confirm the meeting. If not confirmed, the reservation will be ended after {0} minutes after start time." xml:space="preserve">
+    <value>请确认会议。如未做确认，这预订将会取消，取消时间为预订开始时间后{0}分钟。</value>
+  </data>
+  <data name="Please confirm the meeting. [NEWLINE]If not confirmed, the meeting will be ended after {0} minutes after start time." xml:space="preserve">
+    <value>请确认会议。[NEWLINE]如未做确认，这会议将会取消，取消时间为预订会议开始时间后{0}分钟。</value>
+  </data>
+  <data name="Please confirm the meeting.[NEWLINE]If not confirmed, the meeting will be ended after {0} minutes after start time.[NEWLINE]" xml:space="preserve">
+    <value>请确认会议。[NEWLINE]如未做确认，这会议将会取消，取消时间为预订会议开始时间后{0}分钟。[NEWLINE]</value>
+  </data>
+  <data name="Please confirm the reservation. If not confirmed, it will be ended after {0} minute(s) after start time." xml:space="preserve">
+    <value>请确认该预定。如未确认，预定将于开始时间后 {0}分钟后结束</value>
+  </data>
+  <data name="Please confirm the reservation. If not confirmed, the reservation will be ended after {0} minute(s) after start time." xml:space="preserve">
+    <value>请确认会议。如未做确认，这预订将会取消，取消时间为预订开始时间后{0}分钟。</value>
+  </data>
+  <data name="Please input a comment" xml:space="preserve">
+    <value>Please input a comment</value>
+  </data>
+  <data name="Please tap the screen to book instant meeting" xml:space="preserve">
+    <value>请点击触摸屏预订即时会议</value>
+  </data>
+  <data name="Please tap the screen to book new meeting" xml:space="preserve">
+    <value>请点击触摸屏预订新会议</value>
+  </data>
+  <data name="Please tap the screen to book new reservation" xml:space="preserve">
+    <value>请点击触摸屏预订新会议</value>
+  </data>
+  <data name="Please tap the screen to end/extend current meeting" xml:space="preserve">
+    <value>请点击触摸屏结束/延长当前会议</value>
+  </data>
+  <data name="Please tap the screen to end/extend the meeting" xml:space="preserve">
+    <value>请点击触摸屏结束/延长会议</value>
+  </data>
+  <data name="Please tap the screen to end/extend the reservation" xml:space="preserve">
+    <value>请点击触摸屏结束/延长会议</value>
+  </data>
+  <data name="Re-enter personal ID is incorrect." xml:space="preserve">
+    <value>PIN码不一样。</value>
+  </data>
+  <data name="Remote Restart" xml:space="preserve">
+    <value>Remote Restart</value>
+  </data>
+  <data name="Report a problem" xml:space="preserve">
+    <value>Report a problem</value>
+  </data>
+  <data name="Report problem" xml:space="preserve">
+    <value>Report problem</value>
+  </data>
+  <data name="Reservation" xml:space="preserve">
+    <value>会议</value>
+  </data>
+  <data name="Resource" xml:space="preserve">
+    <value>Resource</value>
+  </data>
+  <data name="Resource does not exist." xml:space="preserve">
+    <value>该预定资源不存在</value>
+  </data>
+  <data name="Resource email {0} does not exist in Exchange Server." xml:space="preserve">
+    <value>服务器不存在预定资源的电邮 {0}</value>
+  </data>
+  <data name="Resource Email:" xml:space="preserve">
+    <value>Resource Email:</value>
+  </data>
+  <data name="Resource Name:" xml:space="preserve">
+    <value>Resource Name:</value>
+  </data>
+  <data name="Resource or Meeting organizer does not exist." xml:space="preserve">
+    <value>Resource or Meeting organizer does not exist.</value>
+  </data>
+  <data name="Resource or organizer does not exist." xml:space="preserve">
+    <value>资源或会议安排人不存在</value>
+  </data>
+  <data name="Resource Status From" xml:space="preserve">
+    <value>Resource Status From</value>
+  </data>
+  <data name="Room" xml:space="preserve">
+    <value>房间</value>
+  </data>
+  <data name="Room schedule today" xml:space="preserve">
+    <value>今天房间安排计划</value>
+  </data>
+  <data name="Select Date" xml:space="preserve">
+    <value>Select Date</value>
+  </data>
+  <data name="Sending heartbeat to server {0} failed." xml:space="preserve">
+    <value>把heartbeat发送至服务器{0}失败</value>
+  </data>
+  <data name="Server request timed out." xml:space="preserve">
+    <value>服务器请求超时</value>
+  </data>
+  <data name="Show all meeting rooms" xml:space="preserve">
+    <value>Show all meeting rooms</value>
+  </data>
+  <data name="Show all rooms" xml:space="preserve">
+    <value>显示所有会议室</value>
+  </data>
+  <data name="Show only unused meeting rooms" xml:space="preserve">
+    <value>只显示未使用过的会议室</value>
+  </data>
+  <data name="Show only used meeting rooms" xml:space="preserve">
+    <value>只显示使用过的会议室</value>
+  </data>
+  <data name="Something went wrong in communication with the Server. Please check connection." xml:space="preserve">
+    <value>与服务器连接发生问题，请检查服务器连接情况</value>
+  </data>
+  <data name="Something went wrong in DSS for Server. Please check the connection to it." xml:space="preserve">
+    <value>与服务器连接发生问题，请检查服务器连接情况</value>
+  </data>
+  <data name="Start Time" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="Subject:" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="Success." xml:space="preserve">
+    <value>Success.</value>
+  </data>
+  <data name="Swipe your card" xml:space="preserve">
+    <value>Swipe your card</value>
+  </data>
+  <data name="Tab screen to reserve the meeting room" xml:space="preserve">
+    <value>点击触摸屏即可预定新会议</value>
+  </data>
+  <data name="TAP TO BOOK" xml:space="preserve">
+    <value>点击预定</value>
+  </data>
+  <data name="TAP TO END/EXTEND BOOKING" xml:space="preserve">
+    <value>点击结束/延长预定</value>
+  </data>
+  <data name="The config of Modern Authentication has error." xml:space="preserve">
+    <value>现代认证的配置有错误，请联系管理员。</value>
+  </data>
+  <data name="The configuration &amp; template has been refreshed" xml:space="preserve">
+    <value>The configuration &amp; template has been refreshed</value>
+  </data>
+  <data name="The end date you entered occurs before the start date." xml:space="preserve">
+    <value>结束时间早于开始时间</value>
+  </data>
+  <data name="The link between the user and card was unsuccessful, please try again later or contact your administrator." xml:space="preserve">
+    <value>Failed to set up the association between the user and the card. Please try again later or contact your administrator.</value>
+  </data>
+  <data name="The meeting room is available" xml:space="preserve">
+    <value>这会议室可以使用</value>
+  </data>
+  <data name="The meeting will start shortly." xml:space="preserve">
+    <value>会议将很快开始。</value>
+  </data>
+  <data name="The resource is invisible." xml:space="preserve">
+    <value>The resource is invisible.</value>
+  </data>
+  <data name="The resource with email {0} does not exist." xml:space="preserve">
+    <value>预定资源的电邮{0}不存在</value>
+  </data>
+  <data name="The resource {0} does not have its corresponding exchange server." xml:space="preserve">
+    <value>预定资源 {0}没有它相应的服务器</value>
+  </data>
+  <data name="The selected resource is not available." xml:space="preserve">
+    <value>所选的预定资源不可以用</value>
+  </data>
+  <data name="The template cannot be loaded after it is downloaded from the local machine." xml:space="preserve">
+    <value>The template cannot be loaded after it is downloaded from the local machine.</value>
+  </data>
+  <data name="The template cannot be reloaded when it is retrieved from local machine." xml:space="preserve">
+    <value>The template cannot be loaded after it is downloaded from the local machine.</value>
+  </data>
+  <data name="There is an error(s) when getting server information api from {0} ." xml:space="preserve">
+    <value>There is an error(s) when getting server information api from {0} .</value>
+  </data>
+  <data name="There is an error(s) when getting server information api from {0}." xml:space="preserve">
+    <value>从（0）获取服务器信息api时发生错误</value>
+  </data>
+  <data name="This Card has been disabled by the Administrator." xml:space="preserve">
+    <value>这张ID卡已被管理员禁用</value>
+  </data>
+  <data name="This card is valid from {0} to {1}." xml:space="preserve">
+    <value>这张卡的有效期从 {0}到 {1}</value>
+  </data>
+  <data name="This device has not approved the configuration file." xml:space="preserve">
+    <value>This device has not approved the configuration file.</value>
+  </data>
+  <data name="This device is waiting for approval from this server." xml:space="preserve">
+    <value>This device is waiting for approval from this server.</value>
+  </data>
+  <data name="This digital sign was not registered correctly on the server side\nPlease close app and do the configuration again" xml:space="preserve">
+    <value>This digital sign was not registered correctly on the server side\nPlease close app and do the configuration again</value>
+  </data>
+  <data name="This function has been disabled by the Administrator." xml:space="preserve">
+    <value>该项功能已被管理员废除</value>
+  </data>
+  <data name="This function only supports by a newer server version." xml:space="preserve">
+    <value>This function only supports by a newer server version.</value>
+  </data>
+  <data name="This function only supports new server." xml:space="preserve">
+    <value>This function only supports by a newer server version.</value>
+  </data>
+  <data name="This ID Card has been disabled by the Administrator." xml:space="preserve">
+    <value>This ID Card has been disabled by the Administrator.</value>
+  </data>
+  <data name="This meeting starts shortly." xml:space="preserve">
+    <value>会议将很快开始。</value>
+  </data>
+  <data name="This reservation has not been syncronized yet. Please try again later." xml:space="preserve">
+    <value>这个预订还没有被同步化。请稍后再试。</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="to {0}" xml:space="preserve">
+    <value>至 {0}</value>
+  </data>
+  <data name="Today meetings and events" xml:space="preserve">
+    <value>今天的会议和活动</value>
+  </data>
+  <data name="Today's reservations" xml:space="preserve">
+    <value>今天的预订</value>
+  </data>
+  <data name="User name" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="User name is required." xml:space="preserve">
+    <value>需要用户名</value>
+  </data>
+  <data name="VACANT UNTIL {0}" xml:space="preserve">
+    <value>无人使用直到 {0}</value>
+  </data>
+  <data name="Very soon a new digital sign will be ready for use\nPlease wait while your new digital sign is being enrolled" xml:space="preserve">
+    <value>Very soon a new digital sign will be ready for use\nPlease wait while your new digital sign is being enrolled</value>
+  </data>
+  <data name="Welcome {0}. Your session will end 30 seconds after your last touch on the screen." xml:space="preserve">
+    <value>Welcome {0}. Your session will end 30 seconds after your last touch on the screen.</value>
+  </data>
+  <data name="You can book a new meeting by tapping this screen" xml:space="preserve">
+    <value>点击触摸屏即可预定新会议</value>
+  </data>
+  <data name="You can only end/extend a meeting if you are the meeting organizer." xml:space="preserve">
+    <value>You can only end/extend a meeting if you are the meeting organizer.</value>
+  </data>
+  <data name="You can only end/extend a meeting if you are the organizer." xml:space="preserve">
+    <value>如果你是会议安排人，你可以结束/延长一个会议</value>
+  </data>
+  <data name="You cannot book this resource because the resource a closed. Opening hours from {0} to {1}." xml:space="preserve">
+    <value>You cannot book this resource because the resource a closed. Opening hours from {0} to {1}.</value>
+  </data>
+  <data name="You cannot book this resource because the resource out of open hours. Opening hours from {0} to {1}." xml:space="preserve">
+    <value>You cannot book this resource because the resource a closed. Opening hours from {0} to {1}.</value>
+  </data>
+  <data name="You need to swipe your card to interact with the screen." xml:space="preserve">
+    <value>You need to swipe your card to interact with the screen.</value>
+  </data>
+  <data name="You've turned off the Kiosk Mode, the application must restart to display Navigation Bar. Click &quot;&quot;OK&quot;&quot; to continue." xml:space="preserve">
+    <value>You've turned off the Kiosk Mode, the application must restart to display Navigation Bar. Click ""OK"" to continue.</value>
+  </data>
+  <data name="You've turned off the Kiosk Mode, the application will automatically restart to display Navigation Bar." xml:space="preserve">
+    <value>You've turned off the Kiosk Mode, the application will automatically restart to display Navigation Bar.</value>
+  </data>
+  <data name="You've turned on the Kiosk Mode, the application must restart to hide Navigation Bar. Click &quot;&quot;OK&quot;&quot; to continue." xml:space="preserve">
+    <value>You've turned on the Kiosk Mode, the application must restart to hide Navigation Bar. Click ""OK"" to continue.</value>
+  </data>
+  <data name="You've turned on the Kiosk Mode, the application will automatically restart to hide Navigation Bar." xml:space="preserve">
+    <value>You've turned on the Kiosk Mode, the application will automatically restart to hide Navigation Bar.</value>
+  </data>
+  <data name="Your account has not been activated." xml:space="preserve">
+    <value>Your account has not been activated.</value>
+  </data>
+  <data name="{0} session has expired." xml:space="preserve">
+    <value>{0} session has expired.</value>
+  </data>
+  <data name="{0}'s session has expired." xml:space="preserve">
+    <value>{0}'s session has expired.</value>
+  </data>
+</root>
