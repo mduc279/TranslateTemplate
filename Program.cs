@@ -83,12 +83,14 @@ namespace TranslateTemplates
                     Console.WriteLine($"Finished writing {item.Name.Replace("English", lang)}");
                 }
             }
-            //System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo()
-            //{
-            //    FileName = destinationFolder,
-            //    UseShellExecute = true,
-            //    Verb = "open"
-            //});
+
+            // Open destination folder after finishing
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo()
+            {
+                FileName = destinationFolder,
+                UseShellExecute = true,
+                Verb = "open"
+            });
         }
     }
 }

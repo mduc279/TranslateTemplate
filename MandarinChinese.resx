@@ -678,6 +678,9 @@
   <data name="There is an error(s) when getting server information api from {0}." xml:space="preserve">
     <value>从（0）获取服务器信息api时发生错误</value>
   </data>
+  <data name="This account has been disabled by the Administrator." xml:space="preserve">
+    <value>This account has been disabled by the Administrator.</value>
+  </data>
   <data name="This Card has been disabled by the Administrator." xml:space="preserve">
     <value>这张ID卡已被管理员禁用</value>
   </data>
@@ -701,9 +704,6 @@
   </data>
   <data name="This function only supports new server." xml:space="preserve">
     <value>This function only supports by a newer server version.</value>
-  </data>
-  <data name="This ID Card has been disabled by the Administrator." xml:space="preserve">
-    <value>This ID Card has been disabled by the Administrator.</value>
   </data>
   <data name="This meeting starts shortly." xml:space="preserve">
     <value>会议将很快开始。</value>
