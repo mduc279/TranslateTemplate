@@ -31,13 +31,13 @@ namespace TranslateTemplates
             var sourceFiles = new DirectoryInfo(sourceFolder).GetFiles().Where(x => x.Extension == ".xml");
             foreach (var item in sourceFiles)
             {
+                var text = File.ReadAllText(item.FullName);
                 foreach (var lang in listLanguages)
                 {
-                    var text = File.ReadAllText(item.FullName);
                     Console.WriteLine($"Begin writing {item.Name.Replace("English", lang)}");
-                    text = text.Replace("English", lang);
+                    var langText = text.Replace("English", lang);
                     XmlDocument doc = new XmlDocument();
-                    doc.LoadXml(text);
+                    doc.LoadXml(langText);
 
                     // Get language resource file
                     var languageResource = new ResourceManager(typeof(English));
@@ -77,9 +77,9 @@ namespace TranslateTemplates
                     }
 
                     // Write output file
-                    text = XDocument.Parse(doc.OuterXml).ToString();
+                    langText = XDocument.Parse(doc.OuterXml).ToString();
 
-                    File.WriteAllText($@"{destinationFolder}\{item.Name.Replace("English", lang)}", text);
+                    File.WriteAllText($@"{destinationFolder}\{item.Name.Replace("English", lang)}", langText);
                     Console.WriteLine($"Finished writing {item.Name.Replace("English", lang)}");
                 }
             }
