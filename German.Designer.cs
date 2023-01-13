@@ -1856,7 +1856,7 @@ namespace TranslateTemplates {
         /// <summary>
         ///   Looks up a localized string similar to Dieser Personalausweis wurde vom Administrator deaktiviert..
         /// </summary>
-        internal static string This_ID_Card_has_been_disabled_by_the_Administrator_ {
+        internal static string This_account_has_been_disabled_by_the_Administrator_ {
             get {
                 return ResourceManager.GetString("This ID Card has been disabled by the Administrator.", resourceCulture);
             }

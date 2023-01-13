@@ -667,7 +667,7 @@
     <value>This function only supports by a newer server version.</value>
   </data>
   <data name="This ID Card has been disabled by the Administrator." xml:space="preserve">
-    <value>This ID Card has been disabled by the Administrator.</value>
+    <value>This account has been disabled by the Administrator.</value>
   </data>
   <data name="This meeting starts shortly." xml:space="preserve">
     <value>The meeting will start shortly.</value>

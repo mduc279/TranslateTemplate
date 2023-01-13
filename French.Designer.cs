@@ -1774,6 +1774,15 @@ namespace TranslateTemplates {
         /// <summary>
         ///   Looks up a localized string similar to Cette carte d&apos;identité a été désactivée par l&apos;administrateur..
         /// </summary>
+        internal static string This_account_has_been_disabled_by_the_Administrator_ {
+            get {
+                return ResourceManager.GetString("This account has been disabled by the Administrator.", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cette carte d&apos;identité a été désactivée par l&apos;administrateur..
+        /// </summary>
         internal static string This_Card_has_been_disabled_by_the_Administrator_ {
             get {
                 return ResourceManager.GetString("This Card has been disabled by the Administrator.", resourceCulture);
@@ -1841,15 +1850,6 @@ namespace TranslateTemplates {
         internal static string This_function_only_supports_new_server_ {
             get {
                 return ResourceManager.GetString("This function only supports new server.", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Cette carte d&apos;identité a été désactivée par l&apos;administrateur..
-        /// </summary>
-        internal static string This_ID_Card_has_been_disabled_by_the_Administrator_ {
-            get {
-                return ResourceManager.GetString("This ID Card has been disabled by the Administrator.", resourceCulture);
             }
         }
         

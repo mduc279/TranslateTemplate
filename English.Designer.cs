@@ -1745,7 +1745,7 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This ID Card has been disabled by the Administrator..
+        ///   Looks up a localized string similar to This account has been disabled by the Administrator..
         /// </summary>
         internal static string This_ID_Card_has_been_disabled_by_the_Administrator_ {
             get {

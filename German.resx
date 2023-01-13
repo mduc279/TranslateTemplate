@@ -678,6 +678,9 @@
   <data name="There is an error(s) when getting server information api from {0}." xml:space="preserve">
     <value>Beim Abruf von Serverinformation API von {0} ist ein Fehler aufgetreten.</value>
   </data>
+  <data name="This account has been disabled by the Administrator." xml:space="preserve">
+    <value>Dieser Personalausweis wurde vom Administrator deaktiviert.</value>
+  </data>
   <data name="This Card has been disabled by the Administrator." xml:space="preserve">
     <value>Diese ID-Karte wurde vom Administrator deaktiviert.</value>
   </data>
@@ -701,9 +704,6 @@
   </data>
   <data name="This function only supports new server." xml:space="preserve">
     <value>Diese Funktion wird nur von einer neueren Serverversion unterstützt.</value>
-  </data>
-  <data name="This ID Card has been disabled by the Administrator." xml:space="preserve">
-    <value>Dieser Personalausweis wurde vom Administrator deaktiviert.</value>
   </data>
   <data name="This meeting starts shortly." xml:space="preserve">
     <value>Die Besprechung startet in Kürze.</value>
