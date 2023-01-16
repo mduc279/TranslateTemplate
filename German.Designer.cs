@@ -587,6 +587,15 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Geben Sie Ihren PIN-Code ein.
+        /// </summary>
+        internal static string Enter_your_PIN_code {
+            get {
+                return ResourceManager.GetString("Enter your PIN code", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Geben Sie Ihren Benutzernamen ein.
         /// </summary>
         internal static string Enter_your_username {
@@ -1781,6 +1790,15 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Dieser Personalausweis wurde vom Administrator deaktiviert..
+        /// </summary>
+        internal static string This_account_has_been_disabled_by_the_Administrator_ {
+            get {
+                return ResourceManager.GetString("This account has been disabled by the Administrator.", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Diese ID-Karte wurde vom Administrator deaktiviert..
         /// </summary>
         internal static string This_Card_has_been_disabled_by_the_Administrator_ {
@@ -1850,15 +1868,6 @@ namespace TranslateTemplates {
         internal static string This_function_only_supports_new_server_ {
             get {
                 return ResourceManager.GetString("This function only supports new server.", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Dieser Personalausweis wurde vom Administrator deaktiviert..
-        /// </summary>
-        internal static string This_account_has_been_disabled_by_the_Administrator_ {
-            get {
-                return ResourceManager.GetString("This ID Card has been disabled by the Administrator.", resourceCulture);
             }
         }
         

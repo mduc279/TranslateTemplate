@@ -270,6 +270,9 @@
   <data name="Enter your password" xml:space="preserve">
     <value>Enter your password</value>
   </data>
+  <data name="Enter your personal ID" xml:space="preserve">
+    <value>Enter your PIN code</value>
+  </data>
   <data name="Enter your username" xml:space="preserve">
     <value>Enter your username</value>
   </data>

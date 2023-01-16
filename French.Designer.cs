@@ -587,6 +587,15 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Entrez votre code PIN.
+        /// </summary>
+        internal static string Enter_your_PIN_code {
+            get {
+                return ResourceManager.GetString("Enter your PIN code", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Entrez votre nom d&apos;utilisateur.
         /// </summary>
         internal static string Enter_your_username {

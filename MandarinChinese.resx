@@ -285,6 +285,9 @@
   <data name="Enter your password" xml:space="preserve">
     <value>Enter your password</value>
   </data>
+  <data name="Enter your PIN code" xml:space="preserve">
+    <value>输入您的 PIN 码</value>
+  </data>
   <data name="Enter your username" xml:space="preserve">
     <value>Enter your username</value>
   </data>
