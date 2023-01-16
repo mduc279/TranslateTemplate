@@ -285,6 +285,9 @@
   <data name="Enter your password" xml:space="preserve">
     <value>Skriv dit kodeord</value>
   </data>
+  <data name="Enter your PIN code" xml:space="preserve">
+    <value>Indtast din PIN kode</value>
+  </data>
   <data name="Enter your username" xml:space="preserve">
     <value>Skriv dit brugernavn</value>
   </data>
