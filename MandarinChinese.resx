@@ -228,6 +228,9 @@
   <data name="Connection error or server {0} does not support this feature." xml:space="preserve">
     <value>连接错误或服务器{0}无法支持这个功能</value>
   </data>
+  <data name="Create Account" xml:space="preserve">
+    <value>创建账户</value>
+  </data>
   <data name="Create report problem is successfully" xml:space="preserve">
     <value>问题描述成功保存</value>
   </data>

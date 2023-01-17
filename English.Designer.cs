@@ -779,6 +779,15 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Create Account.
+        /// </summary>
+        internal static string Link_New_Personal_ID {
+            get {
+                return ResourceManager.GetString("Link New Personal ID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to List View.
         /// </summary>
         internal static string List_View {

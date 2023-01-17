@@ -63,8 +63,9 @@ namespace TranslateTemplates
 
                     // Get nodes requiring translation
                     var textNodes = doc.SelectNodes("//Text");
+                    var placeholderNodes = doc.SelectNodes("//Placeholder");
                     var messageInfoNodes = doc.SelectNodes("//MessageInfo/*");
-                    var nodeList = textNodes.Cast<XmlNode>().Concat<XmlNode>(messageInfoNodes.Cast<XmlNode>());
+                    var nodeList = textNodes.Cast<XmlNode>().Concat<XmlNode>(messageInfoNodes.Cast<XmlNode>()).Concat<XmlNode>(placeholderNodes.Cast<XmlNode>());
 
                     // Begin translate
                     foreach (DictionaryEntry entry in resourceSet)
@@ -78,6 +79,7 @@ namespace TranslateTemplates
 
                     // Write output file
                     langText = XDocument.Parse(doc.OuterXml).ToString();
+                    if (lang == "English") text = langText;
 
                     File.WriteAllText($@"{destinationFolder}\{item.Name.Replace("English", lang)}", langText);
                     Console.WriteLine($"Finished writing {item.Name.Replace("English", lang)}");
