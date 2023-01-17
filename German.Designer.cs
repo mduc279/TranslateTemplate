@@ -415,6 +415,15 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Benutzerkonto erstellen.
+        /// </summary>
+        internal static string Create_Account {
+            get {
+                return ResourceManager.GetString("Create Account", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Problembeschreibung erfolgreich gespeichert.
         /// </summary>
         internal static string Create_report_problem_is_successfully {

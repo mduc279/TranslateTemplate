@@ -348,6 +348,9 @@
   <data name="Keyboard" xml:space="preserve">
     <value>Keyboard</value>
   </data>
+  <data name="Link New Personal ID" xml:space="preserve">
+    <value>Create Account</value>
+  </data>
   <data name="List View" xml:space="preserve">
     <value>List View</value>
   </data>

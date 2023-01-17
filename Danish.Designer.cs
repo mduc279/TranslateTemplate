@@ -415,6 +415,15 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Opret konto.
+        /// </summary>
+        internal static string Create_Account {
+            get {
+                return ResourceManager.GetString("Create Account", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Problembeskrivelsen blev gemt.
         /// </summary>
         internal static string Create_report_problem_is_successfully {
