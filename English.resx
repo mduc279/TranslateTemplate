@@ -337,7 +337,7 @@
     <value>ID card has expired.</value>
   </data>
   <data name="Invalid card." xml:space="preserve">
-    <value>Invalid card.</value>
+    <value>Invalid account, (PIN Code og Card id not found), please create a new Account or contact you administrator</value>
   </data>
   <data name="Invalid information" xml:space="preserve">
     <value>Invalid information</value>

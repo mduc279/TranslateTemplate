@@ -357,6 +357,9 @@
   <data name="ID card has expired." xml:space="preserve">
     <value>La carte d'identité a expiré.</value>
   </data>
+  <data name="Invalid account, (PIN Code og Card id not found), please create a new Account or contact you administrator" xml:space="preserve">
+    <value>Compte invalide, (Code PIN ou ID de carte non trouvé), veuillez créer un nouveau compte ou contacter votre administrateur.</value>
+  </data>
   <data name="Invalid card." xml:space="preserve">
     <value>Carte non valide.</value>
   </data>

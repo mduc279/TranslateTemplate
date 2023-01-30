@@ -806,6 +806,16 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 无效账户，（未找到PIN码或卡号），请创建一个新账户或联系您的管理员。.
+        /// </summary>
+        internal static string Invalid_account___PIN_Code_og_Card_id_not_found___please_create_a_new_Account_or_contact_you_administrator {
+            get {
+                return ResourceManager.GetString("Invalid account, (PIN Code og Card id not found), please create a new Account or " +
+                        "contact you administrator", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 卡片无效.
         /// </summary>
         internal static string Invalid_card_ {
