@@ -357,6 +357,9 @@
   <data name="ID card has expired." xml:space="preserve">
     <value>ID card has expired.</value>
   </data>
+  <data name="Invalid account, (PIN Code og Card id not found), please create a new Account or contact you administrator" xml:space="preserve">
+    <value>无效账户，（未找到PIN码或卡号），请创建一个新账户或联系您的管理员。</value>
+  </data>
   <data name="Invalid card." xml:space="preserve">
     <value>卡片无效</value>
   </data>

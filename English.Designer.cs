@@ -743,7 +743,7 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Invalid card..
+        ///   Looks up a localized string similar to Invalid account, (PIN Code og Card id not found), please create a new Account or contact you administrator.
         /// </summary>
         internal static string Invalid_card_ {
             get {
