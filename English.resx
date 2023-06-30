@@ -139,7 +139,7 @@
     <value>An error occurred while sending configuration data to the server. See logs for more details.</value>
   </data>
   <data name="Appointment already existed." xml:space="preserve">
-    <value>Appointment already existed.</value>
+    <value>Reservation on same timeslot already exists.</value>
   </data>
   <data name="Attendees" xml:space="preserve">
     <value>Attendees</value>
@@ -243,8 +243,8 @@
   <data name="End current meeting?" xml:space="preserve">
     <value>End current meeting?</value>
   </data>
-  <data name="End date  is earlier than Start date." xml:space="preserve">
-    <value>End date  is earlier than Start date.</value>
+  <data name="End date is earlier than Start date." xml:space="preserve">
+    <value>End date is earlier than Start date.</value>
   </data>
   <data name="END OR EXTEND" xml:space="preserve">
     <value>END OR EXTEND</value>
@@ -252,11 +252,11 @@
   <data name="End Time" xml:space="preserve">
     <value>End Time</value>
   </data>
+  <data name="End time is earlier than start time." xml:space="preserve">
+    <value>End time is earlier than start time.</value>
+  </data>
   <data name="End Time:" xml:space="preserve">
     <value>End Time:</value>
-  </data>
-  <data name="Endtime is earlier than starttime." xml:space="preserve">
-    <value>Endtime is earlier than starttime.</value>
   </data>
   <data name="Enter email address" xml:space="preserve">
     <value>Enter email address</value>
@@ -335,6 +335,9 @@
   </data>
   <data name="ID card has expired." xml:space="preserve">
     <value>ID card has expired.</value>
+  </data>
+  <data name="Invalid account, (PIN Code og Card id not found), please create a new Account or contact you administrator" xml:space="preserve">
+    <value>Invalid account, (PIN Code or Card id not found), please create a new Account or contact your administrator</value>
   </data>
   <data name="Invalid card." xml:space="preserve">
     <value>Invalid account, (PIN Code og Card id not found), please create a new Account or contact you administrator</value>
@@ -696,6 +699,9 @@
   <data name="Today's reservations" xml:space="preserve">
     <value>Today's reservations</value>
   </data>
+  <data name="transparent" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
   <data name="User name" xml:space="preserve">
     <value>User name</value>
   </data>
@@ -721,10 +727,10 @@
     <value>You can only end/extend a meeting if you are the meeting organizer.</value>
   </data>
   <data name="You cannot book this resource because the resource a closed. Opening hours from {0} to {1}." xml:space="preserve">
-    <value>You cannot book this resource because the resource a closed. Opening hours from {0} to {1}.</value>
+    <value>You cannot book this resource because the resource is closed. Opening hours from {0} to {1}.</value>
   </data>
   <data name="You cannot book this resource because the resource out of open hours. Opening hours from {0} to {1}." xml:space="preserve">
-    <value>You cannot book this resource because the resource a closed. Opening hours from {0} to {1}.</value>
+    <value>You cannot book this resource because the resource is closed. Opening hours from {0} to {1}.</value>
   </data>
   <data name="You need to swipe your card to interact with the screen." xml:space="preserve">
     <value>You need to swipe your card to interact with the screen.</value>

@@ -141,9 +141,6 @@
   <data name="An error occurred while sending configuration data to the server. See logs for more details." xml:space="preserve">
     <value>Une erreur s'est produite lors de l'envoi de données de configuration au serveur. Voir les journaux pour plus de détails.</value>
   </data>
-  <data name="Appointment already existed." xml:space="preserve">
-    <value>Le rendez-vous existe déjà.</value>
-  </data>
   <data name="Attendees" xml:space="preserve">
     <value>Participants</value>
   </data>
@@ -261,7 +258,7 @@
   <data name="End current meeting?" xml:space="preserve">
     <value>Terminer la réunion en cours ?</value>
   </data>
-  <data name="End date  is earlier than Start date." xml:space="preserve">
+  <data name="End date is earlier than Start date." xml:space="preserve">
     <value>La date de fin est antérieure à la date de début.</value>
   </data>
   <data name="END OR EXTEND" xml:space="preserve">
@@ -270,11 +267,11 @@
   <data name="End Time" xml:space="preserve">
     <value>Heure de fin</value>
   </data>
+  <data name="End time is earlier than start time." xml:space="preserve">
+    <value>Heure de fin est antérieure à l'heure de début.</value>
+  </data>
   <data name="End Time:" xml:space="preserve">
     <value>Heure de fin:</value>
-  </data>
-  <data name="Endtime is earlier than starttime." xml:space="preserve">
-    <value>Heure de fin est antérieure à l'heure de début.</value>
   </data>
   <data name="Enter email address" xml:space="preserve">
     <value>Entrez votre adresse e-mail</value>
@@ -358,6 +355,9 @@
     <value>La carte d'identité a expiré.</value>
   </data>
   <data name="Invalid account, (PIN Code og Card id not found), please create a new Account or contact you administrator" xml:space="preserve">
+    <value>Compte invalide, (Code PIN ou ID de carte non trouvé), veuillez créer un nouveau compte ou contacter votre administrateur.</value>
+  </data>
+  <data name="Invalid account, (PIN Code or Card id not found), please create a new Account or contact your administrator" xml:space="preserve">
     <value>Compte invalide, (Code PIN ou ID de carte non trouvé), veuillez créer un nouveau compte ou contacter votre administrateur.</value>
   </data>
   <data name="Invalid card." xml:space="preserve">
@@ -554,6 +554,9 @@
   </data>
   <data name="Reservation" xml:space="preserve">
     <value>Réunion</value>
+  </data>
+  <data name="Reservation on same timeslot already exists." xml:space="preserve">
+    <value>Le rendez-vous existe déjà.</value>
   </data>
   <data name="Resource" xml:space="preserve">
     <value>Ressource</value>
@@ -756,7 +759,7 @@
   <data name="You can only end/extend a meeting if you are the organizer." xml:space="preserve">
     <value>Vous ne pouvez terminer/prolonger une réunion que si vous êtes l'organisateur de la réunion.</value>
   </data>
-  <data name="You cannot book this resource because the resource a closed. Opening hours from {0} to {1}." xml:space="preserve">
+  <data name="You cannot book this resource because the resource is closed. Opening hours from {0} to {1}." xml:space="preserve">
     <value>Vous ne pouvez pas réserver cette ressource car elle est fermée. Heures d'ouverture de {0} à {1}.</value>
   </data>
   <data name="You cannot book this resource because the resource out of open hours. Opening hours from {0} to {1}." xml:space="preserve">

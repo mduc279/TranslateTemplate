@@ -154,15 +154,6 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Die Besprechung existiert bereits..
-        /// </summary>
-        internal static string Appointment_already_existed_ {
-            get {
-                return ResourceManager.GetString("Appointment already existed.", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Teilnehmer.
         /// </summary>
         internal static string Attendees {
@@ -517,9 +508,9 @@ namespace TranslateTemplates {
         /// <summary>
         ///   Looks up a localized string similar to Das Enddatum liegt vor dem Startdatum..
         /// </summary>
-        internal static string End_date__is_earlier_than_Start_date_ {
+        internal static string End_date_is_earlier_than_Start_date_ {
             get {
-                return ResourceManager.GetString("End date  is earlier than Start date.", resourceCulture);
+                return ResourceManager.GetString("End date is earlier than Start date.", resourceCulture);
             }
         }
         
@@ -553,9 +544,9 @@ namespace TranslateTemplates {
         /// <summary>
         ///   Looks up a localized string similar to Die Endzeit liegt vor der Startzeit..
         /// </summary>
-        internal static string Endtime_is_earlier_than_starttime_ {
+        internal static string End_time_is_earlier_than_start_time_ {
             get {
-                return ResourceManager.GetString("Endtime is earlier than starttime.", resourceCulture);
+                return ResourceManager.GetString("End time is earlier than start time.", resourceCulture);
             }
         }
         
@@ -812,6 +803,16 @@ namespace TranslateTemplates {
             get {
                 return ResourceManager.GetString("Invalid account, (PIN Code og Card id not found), please create a new Account or " +
                         "contact you administrator", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ungültiges Konto, (PIN Code oder Kartennummer nicht gefunden), bitte erstellen Sie ein neues Konto oder kontaktieren Sie Ihren Administrator.
+        /// </summary>
+        internal static string Invalid_account___PIN_Code_or_Card_id_not_found___please_create_a_new_Account_or_contact_your_administrator {
+            get {
+                return ResourceManager.GetString("Invalid account, (PIN Code or Card id not found), please create a new Account or " +
+                        "contact your administrator", resourceCulture);
             }
         }
         
@@ -1416,6 +1417,15 @@ namespace TranslateTemplates {
         internal static string Reservation {
             get {
                 return ResourceManager.GetString("Reservation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Die Besprechung existiert bereits..
+        /// </summary>
+        internal static string Reservation_on_same_timeslot_already_exists_ {
+            get {
+                return ResourceManager.GetString("Reservation on same timeslot already exists.", resourceCulture);
             }
         }
         
@@ -2030,10 +2040,10 @@ namespace TranslateTemplates {
         /// <summary>
         ///   Looks up a localized string similar to Sie können diese Ressource nicht buchen, da die Ressource geschlossen ist. Öffnungszeiten von {0} bis {1}..
         /// </summary>
-        internal static string You_cannot_book_this_resource_because_the_resource_a_closed__Opening_hours_from__0__to__1__ {
+        internal static string You_cannot_book_this_resource_because_the_resource_is_closed__Opening_hours_from__0__to__1__ {
             get {
-                return ResourceManager.GetString("You cannot book this resource because the resource a closed. Opening hours from {" +
-                        "0} to {1}.", resourceCulture);
+                return ResourceManager.GetString("You cannot book this resource because the resource is closed. Opening hours from " +
+                        "{0} to {1}.", resourceCulture);
             }
         }
         

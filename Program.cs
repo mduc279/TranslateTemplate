@@ -19,10 +19,12 @@ namespace TranslateTemplates
         {
             Console.OutputEncoding = Encoding.UTF8;
             // Source folder for reading all master templates
-            var sourceFolder = @"D:\\AOD Projects\\From4.3SR2RC3_To4.3SR2RC4\\MasterTemplates";
+            var sourceFolder = @"D:\\AOD Projects\\DSS\\MasterTemplates";
 
             // Destination folder for generated results
             var destinationFolder = @"C:\Users\DucDoanMinh\OneDrive - Add-On Products & Add-On Development\Desktop\tempTemplate";
+            Directory.Delete(destinationFolder, true);
+            Directory.CreateDirectory(destinationFolder);
 
             // Language list
             var listLanguages = new string[] { "English", "Danish", "German", "French", "Mandarin Chinese" };
@@ -81,8 +83,9 @@ namespace TranslateTemplates
                     langText = XDocument.Parse(doc.OuterXml).ToString();
                     if (lang == "English") text = langText;
 
-                    File.WriteAllText($@"{destinationFolder}\{item.Name.Replace("English", lang)}", langText);
-                    Console.WriteLine($"Finished writing {item.Name.Replace("English", lang)}");
+                    var fileName = $@"{destinationFolder}\{item.Name.Replace("English", lang).Replace("4.3.4", "4.3.5")}";
+                    File.WriteAllText(fileName, langText);
+                    Console.WriteLine($"Finished writing {fileName}");
                 }
             }
 
@@ -93,6 +96,14 @@ namespace TranslateTemplates
                 UseShellExecute = true,
                 Verb = "open"
             });
+
+            // For changing template resource folder names
+
+            //var sourceFolder2 = @"D:\\AOD Projects\\DSS\\DefaultTemplates";
+            //foreach (var item in Directory.GetDirectories(sourceFolder2))
+            //{
+            //    Directory.Move(item, item.Replace("4.3.4", "4.3.5"));
+            //}
         }
     }
 }

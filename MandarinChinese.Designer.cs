@@ -154,15 +154,6 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 会议预约已存在.
-        /// </summary>
-        internal static string Appointment_already_existed_ {
-            get {
-                return ResourceManager.GetString("Appointment already existed.", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Attendees.
         /// </summary>
         internal static string Attendees {
@@ -517,9 +508,9 @@ namespace TranslateTemplates {
         /// <summary>
         ///   Looks up a localized string similar to End date  is earlier than Start date..
         /// </summary>
-        internal static string End_date__is_earlier_than_Start_date_ {
+        internal static string End_date_is_earlier_than_Start_date_ {
             get {
-                return ResourceManager.GetString("End date  is earlier than Start date.", resourceCulture);
+                return ResourceManager.GetString("End date is earlier than Start date.", resourceCulture);
             }
         }
         
@@ -553,9 +544,9 @@ namespace TranslateTemplates {
         /// <summary>
         ///   Looks up a localized string similar to 结束时间早于开始时间.
         /// </summary>
-        internal static string Endtime_is_earlier_than_starttime_ {
+        internal static string End_time_is_earlier_than_start_time_ {
             get {
-                return ResourceManager.GetString("Endtime is earlier than starttime.", resourceCulture);
+                return ResourceManager.GetString("End time is earlier than start time.", resourceCulture);
             }
         }
         
@@ -812,6 +803,16 @@ namespace TranslateTemplates {
             get {
                 return ResourceManager.GetString("Invalid account, (PIN Code og Card id not found), please create a new Account or " +
                         "contact you administrator", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 无效账户，（未找到PIN码或卡号），请创建一个新账户或联系您的管理员。.
+        /// </summary>
+        internal static string Invalid_account___PIN_Code_or_Card_id_not_found___please_create_a_new_Account_or_contact_your_administrator {
+            get {
+                return ResourceManager.GetString("Invalid account, (PIN Code or Card id not found), please create a new Account or " +
+                        "contact your administrator", resourceCulture);
             }
         }
         
@@ -1416,6 +1417,15 @@ namespace TranslateTemplates {
         internal static string Reservation {
             get {
                 return ResourceManager.GetString("Reservation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 会议预约已存在.
+        /// </summary>
+        internal static string Reservation_on_same_timeslot_already_exists_ {
+            get {
+                return ResourceManager.GetString("Reservation on same timeslot already exists.", resourceCulture);
             }
         }
         
@@ -2030,10 +2040,10 @@ namespace TranslateTemplates {
         /// <summary>
         ///   Looks up a localized string similar to You cannot book this resource because the resource a closed. Opening hours from {0} to {1}..
         /// </summary>
-        internal static string You_cannot_book_this_resource_because_the_resource_a_closed__Opening_hours_from__0__to__1__ {
+        internal static string You_cannot_book_this_resource_because_the_resource_is_closed__Opening_hours_from__0__to__1__ {
             get {
-                return ResourceManager.GetString("You cannot book this resource because the resource a closed. Opening hours from {" +
-                        "0} to {1}.", resourceCulture);
+                return ResourceManager.GetString("You cannot book this resource because the resource is closed. Opening hours from " +
+                        "{0} to {1}.", resourceCulture);
             }
         }
         
