@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="(*)The returned time zone &quot;{0}&quot; does not match with the device's time zone." xml:space="preserve">
+    <value>Zwracana strefa czasowa nie pasuje to strefy czasowej urządzenia</value>
+  </data>
+  <data name="A new meeting starts shortly." xml:space="preserve">
+    <value>Nowe spotkanie rozpocznie się wkrótce.</value>
+  </data>
+  <data name="Appointment already existed." xml:space="preserve">
+    <value>Spotanie już istnieje</value>
+  </data>
+  <data name="Attendees" xml:space="preserve">
+    <value>Uczestnicy</value>
+  </data>
+  <data name="Book New Meeting" xml:space="preserve">
+    <value>Zarezerwuj nowe spotkanie.</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Odwołać</value>
+  </data>
+  <data name="Cannot connect to server {0}." xml:space="preserve">
+    <value>Nie można połączyć się z serwerem</value>
+  </data>
+  <data name="Cannot create reservation when using Microsoft Graph." xml:space="preserve">
+    <value>Nie można stworzyć rezerwacji podczas korzystania z Microsoft Graph</value>
+  </data>
+  <data name="Cannot delete reservation when using Microsoft Graph." xml:space="preserve">
+    <value>Nie można usunąć rezerwacji podczas korzystania z Microsoft Graph</value>
+  </data>
+  <data name="Cannot extend meeting beyond start time of the next meeting." xml:space="preserve">
+    <value>Nie można przedłużyć spotkania poza czas początkowy następnego spotkania.</value>
+  </data>
+  <data name="Cannot extend meeting. The next meeting starts shortly." xml:space="preserve">
+    <value>Nie możesz przedłużyć spotkania. Następne spotkanie rozpocznie się wkrótce.</value>
+  </data>
+  <data name="Cannot process the reservation." xml:space="preserve">
+    <value>Nie można przetworzyć rezerwacji</value>
+  </data>
+  <data name="Cannot update reservation when using Microsoft Graph." xml:space="preserve">
+    <value>Nie można zatualizować rezerwacji podczas korzystania z Microsoft Graph</value>
+  </data>
+  <data name="Card ID or username / password not valid." xml:space="preserve">
+    <value>Karta identyfikacyjna albo nazwa użytkownika/ hasło są nieważne</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Zaakceptuj</value>
+  </data>
+  <data name="Connection error or server {0} does not support this feature." xml:space="preserve">
+    <value>Błąd połączenia lub serwer {0} nie obsługuje tej funkcji.</value>
+  </data>
+  <data name="Either Subject, Resource email, Starttime or Endtime is null." xml:space="preserve">
+    <value>Temat, adres email zasobu, czas początkowy lub czas końcowy są zerowe</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Koniec/ Zakończ</value>
+  </data>
+  <data name="End current meeting?" xml:space="preserve">
+    <value>Zakończyć obecne spotkanie?</value>
+  </data>
+  <data name="End date  is earlier than Start date." xml:space="preserve">
+    <value>Data końcowa jest wcześniej niż data początkowa</value>
+  </data>
+  <data name="End Time" xml:space="preserve">
+    <value>Czas końcowy</value>
+  </data>
+  <data name="Endtime is earlier than starttime." xml:space="preserve">
+    <value>Czas końcowy jest wcześniej niż czas początkowy</value>
+  </data>
+  <data name="Enter Your Information" xml:space="preserve">
+    <value>Wprwadź swoje dane.</value>
+  </data>
+  <data name="Enter your password" xml:space="preserve">
+    <value>Wprowadź swoje hasło</value>
+  </data>
+  <data name="Enter your username" xml:space="preserve">
+    <value>Wprowadź swoją nazwę użytkownika</value>
+  </data>
+  <data name="Error in configuration file {0}." xml:space="preserve">
+    <value>Błąd w pliku konfiguracyjnym {0}</value>
+  </data>
+  <data name="Error in configuration file." xml:space="preserve">
+    <value>Błąd w pliku konfiguracyjnym</value>
+  </data>
+  <data name="Error in creating appointment. Please check the connection to DSS for Server." xml:space="preserve">
+    <value>Błąd podczas tworzenia  spotkania. Proszę sprawdź połączenie z serwerem DSS</value>
+  </data>
+  <data name="Error in ending appointment. Please check if [Settings; Server time zone] is correctly selected." xml:space="preserve">
+    <value>Błąd podczas zakończenia spotkania. Proszę sprawdź czy (Ustawienia; Strefa czasowa serwera) jest prawidłowo wybrana</value>
+  </data>
+  <data name="Error in ending appointment. Please check the connection to DSS for Server." xml:space="preserve">
+    <value>Błąd podczas zakończenia spotkania. Proszę sprawdź połączenie z serwerem DSS</value>
+  </data>
+  <data name="Error in extending appointment. Please check if [Settings; Server time zone] is correctly selected." xml:space="preserve">
+    <value>Błąd podczas przedłużenia spotkania. Proszę sprawdź czy (Ustawienia; Strefa czasowa serwera) jest prawidłowo wybrana</value>
+  </data>
+  <data name="Error in extending appointment. Please check the connection to DSS for Server." xml:space="preserve">
+    <value>Błąd podczas przedłużenia spotkania. Proszę sprawdź połączenie z serwerem DSS</value>
+  </data>
+  <data name="Error in the template file {0}." xml:space="preserve">
+    <value>Błąd w szablonie dokumentu {0}</value>
+  </data>
+  <data name="Error in the template file." xml:space="preserve">
+    <value>Błąd w szablonie dokumentu</value>
+  </data>
+  <data name="Extend" xml:space="preserve">
+    <value>Rozszerz</value>
+  </data>
+  <data name="Extend Meeting" xml:space="preserve">
+    <value>Przedłuż spotkanie</value>
+  </data>
+  <data name="ID card has expired." xml:space="preserve">
+    <value>Karta identyfikacyjna wygasła</value>
+  </data>
+  <data name="Meeting" xml:space="preserve">
+    <value>Spotkanie</value>
+  </data>
+  <data name="Network is unreachable." xml:space="preserve">
+    <value>Sieć jest nieosiągalna</value>
+  </data>
+  <data name="Next meeting starts shortly" xml:space="preserve">
+    <value>Następne spotkanie rozpocznie się wkrótce.</value>
+  </data>
+  <data name="Next meetings and events" xml:space="preserve">
+    <value>Następne spotkania i wydarzenia</value>
+  </data>
+  <data name="No meetings today" xml:space="preserve">
+    <value>Dzisiaj nie ma żadnych spotkań</value>
+  </data>
+  <data name="No Network connection" xml:space="preserve">
+    <value>Brak połączenia internetowego</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Operation failed" xml:space="preserve">
+    <value>Operacja nie powiodła się</value>
+  </data>
+  <data name="Organized by" xml:space="preserve">
+    <value>Zorganizowany przez</value>
+  </data>
+  <data name="Organizer" xml:space="preserve">
+    <value>Organizator</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Hasło</value>
+  </data>
+  <data name="Password is required." xml:space="preserve">
+    <value>Hasło jest wymagane</value>
+  </data>
+  <data name="Please confirm the meeting. If not confirmed, the meeting will be ended after {0} minutes after start time." xml:space="preserve">
+    <value>Proszę zaakceptuj swoje spotkanie. Jeśli Twoje spotkanie nie zostanie zaakceptowane, to zostanie ono zakończone w ciągu {0} minut od rozpoczęcia.</value>
+  </data>
+  <data name="Please input a comment" xml:space="preserve">
+    <value>Proszę wprowadź komentarz</value>
+  </data>
+  <data name="Please tap the screen to end/extend current meeting" xml:space="preserve">
+    <value>Proszę klinknij na ekran aby zakończyć/ przedłużyc obecne spotkanie.</value>
+  </data>
+  <data name="Report problem" xml:space="preserve">
+    <value>Zgłoś problem</value>
+  </data>
+  <data name="Resource does not exist." xml:space="preserve">
+    <value>Zasób nie istnieje</value>
+  </data>
+  <data name="Resource email {0} does not exist in Exchange Server." xml:space="preserve">
+    <value>Adres email zasobu nie istnieje w serwerze wymiany</value>
+  </data>
+  <data name="Resource or Meeting organizer does not exist." xml:space="preserve">
+    <value>Zasób albo Organizator nie istnieje</value>
+  </data>
+  <data name="Room schedule today" xml:space="preserve">
+    <value>Wykaz sal na dziś</value>
+  </data>
+  <data name="Sending heartbeat to server {0} failed." xml:space="preserve">
+    <value>Wysyłanie taktowania do serwera nie powiodło się</value>
+  </data>
+  <data name="Server request timed out." xml:space="preserve">
+    <value>Żądanie serwera wygasło</value>
+  </data>
+  <data name="Something went wrong in communication with the Server. Please check connection." xml:space="preserve">
+    <value>Coś poszło nie tak w komunikacji z serwerem. Proszę sprawdź połączenie</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Przedmiot</value>
+  </data>
+  <data name="The meeting room is available" xml:space="preserve">
+    <value>Sala konferencyjna jest dostępna.</value>
+  </data>
+  <data name="The resource with email {0} does not exist." xml:space="preserve">
+    <value>Zasób z adresem email nie istnieje</value>
+  </data>
+  <data name="The resource {0} does not have its corresponding exchange server." xml:space="preserve">
+    <value>Zasób {0} nie posiada odpowiedniego serwera wymiany</value>
+  </data>
+  <data name="The selected resource is not available." xml:space="preserve">
+    <value>Wybrany zasób jest nieosiągalny</value>
+  </data>
+  <data name="There is an error(s) when getting server information api from {0} ." xml:space="preserve">
+    <value>Pojawił/y się błąd/błędy podczas pobierania informacji api z serwera</value>
+  </data>
+  <data name="This card is valid from {0} to {1}." xml:space="preserve">
+    <value>Ta karta jest ważna od do</value>
+  </data>
+  <data name="This function has been disabled by the Administrator." xml:space="preserve">
+    <value>Ta funkcja została wyłączona przez Administratora</value>
+  </data>
+  <data name="This ID Card has been disabled by the Administrator." xml:space="preserve">
+    <value>Ta karta identyfikacyjna została unieważniona przez Administratora</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Czas</value>
+  </data>
+  <data name="User name" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+  </data>
+  <data name="User name is required." xml:space="preserve">
+    <value>Nazwa użytkownika jest wymagana</value>
+  </data>
+  <data name="Welcome {0}. Your session will end 30 seconds after your last touch on the screen." xml:space="preserve">
+    <value>Witaj! Twoja sesja wygaśnie po 30 sekundach od ostatniego dotknięcia ekranu</value>
+  </data>
+  <data name="You can book a new meeting by tapping this screen" xml:space="preserve">
+    <value>Możesz zorganizować nowe spotkanie poprzez kliknięcie na ten ekran.</value>
+  </data>
+  <data name="You can only end/extend a meeting if you are the meeting organizer." xml:space="preserve">
+    <value>Możesz zakończyć/ przedłużyć spotkanie, tylko jeśli jesteś jego organizatorem</value>
+  </data>
+  <data name="You need to swipe your card to interact with the screen." xml:space="preserve">
+    <value>Musisz przeciągnąć swoją kartę, aby korzystać z ekranu</value>
+  </data>
+  <data name="{0} session has expired." xml:space="preserve">
+    <value>Sesja wygasła</value>
+  </data>
+</root>

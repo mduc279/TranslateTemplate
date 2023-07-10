@@ -27,7 +27,7 @@ namespace TranslateTemplates
             Directory.CreateDirectory(destinationFolder);
 
             // Language list
-            var listLanguages = new string[] { "English", "Danish", "German", "French", "Mandarin Chinese" };
+            var listLanguages = new string[] { "English", "Danish", "German", "French", "Mandarin Chinese" /*"Polish"*/ };
 
             // Get all template xml files
             var sourceFiles = new DirectoryInfo(sourceFolder).GetFiles().Where(x => x.Extension == ".xml");
@@ -60,6 +60,9 @@ namespace TranslateTemplates
                         case "Mandarin Chinese":
                             languageResource = new ResourceManager(typeof(MandarinChinese));
                             break;
+                        case "Polish":
+                            languageResource = new ResourceManager(typeof(Polish));
+                            break;
                     }
                     ResourceSet resourceSet = languageResource.GetResourceSet(CultureInfo.CurrentUICulture, true, true);
 
@@ -83,7 +86,7 @@ namespace TranslateTemplates
                     langText = XDocument.Parse(doc.OuterXml).ToString();
                     if (lang == "English") text = langText;
 
-                    var fileName = $@"{destinationFolder}\{item.Name.Replace("English", lang).Replace("4.3.4", "4.3.5")}";
+                    var fileName = $@"{destinationFolder}\{item.Name.Replace("English", lang).Replace("4.3.5", "4.3.6")}";
                     File.WriteAllText(fileName, langText);
                     Console.WriteLine($"Finished writing {fileName}");
                 }

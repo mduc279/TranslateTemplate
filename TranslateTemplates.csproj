@@ -35,6 +35,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>English.resx</DependentUpon>
     </Compile>
+    <Compile Update="Polish.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Polish.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -57,6 +62,10 @@
     <EmbeddedResource Update="English.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>English.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Polish.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Polish.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 
