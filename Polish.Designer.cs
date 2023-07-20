@@ -115,7 +115,7 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Odwołać.
+        ///   Looks up a localized string similar to Anuluj.
         /// </summary>
         internal static string Cancel {
             get {
@@ -378,7 +378,7 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Rozszerz.
+        ///   Looks up a localized string similar to Przedłuż.
         /// </summary>
         internal static string Extend {
             get {
@@ -387,7 +387,7 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Przedłuż spotkanie.
+        ///   Looks up a localized string similar to Przedłużć spotkanie.
         /// </summary>
         internal static string Extend_Meeting {
             get {
@@ -613,7 +613,7 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Przedmiot.
+        ///   Looks up a localized string similar to Rodzaj spotkania.
         /// </summary>
         internal static string Subject {
             get {

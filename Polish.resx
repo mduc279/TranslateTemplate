@@ -133,7 +133,7 @@
     <value>Zarezerwuj nowe spotkanie.</value>
   </data>
   <data name="Cancel" xml:space="preserve">
-    <value>Odwołać</value>
+    <value>Anuluj</value>
   </data>
   <data name="Cannot connect to server {0}." xml:space="preserve">
     <value>Nie można połączyć się z serwerem</value>
@@ -220,10 +220,10 @@
     <value>Błąd w szablonie dokumentu</value>
   </data>
   <data name="Extend" xml:space="preserve">
-    <value>Rozszerz</value>
+    <value>Przedłuż</value>
   </data>
   <data name="Extend Meeting" xml:space="preserve">
-    <value>Przedłuż spotkanie</value>
+    <value>Przedłużć spotkanie</value>
   </data>
   <data name="ID card has expired." xml:space="preserve">
     <value>Karta identyfikacyjna wygasła</value>
@@ -298,7 +298,7 @@
     <value>Coś poszło nie tak w komunikacji z serwerem. Proszę sprawdź połączenie</value>
   </data>
   <data name="Subject" xml:space="preserve">
-    <value>Przedmiot</value>
+    <value>Rodzaj spotkania</value>
   </data>
   <data name="The meeting room is available" xml:space="preserve">
     <value>Sala konferencyjna jest dostępna.</value>

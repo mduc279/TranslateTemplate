@@ -41,6 +41,8 @@ namespace TranslateTemplates
                     XmlDocument doc = new XmlDocument();
                     doc.LoadXml(langText);
 
+                    //if (doc.SelectSingleNode("//Version").InnerText != "4.3.0") continue;
+
                     // Get language resource file
                     var languageResource = new ResourceManager(typeof(English));
                     switch (lang)
