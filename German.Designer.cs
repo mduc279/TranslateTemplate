@@ -124,6 +124,15 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Alle Ressourcen.
+        /// </summary>
+        internal static string All_resources {
+            get {
+                return ResourceManager.GetString("All resources", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Beim Senden von Konfigurationsdaten an den Server ist ein Fehler aufgetreten. Siehe Protokolle für weitere Details..
         /// </summary>
         internal static string An_error_encountered_in_synchronizing_the_template_file_from_the_server__Please_see_logs_for_more_details_ {
@@ -168,6 +177,15 @@ namespace TranslateTemplates {
         internal static string Available {
             get {
                 return ResourceManager.GetString("Available", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Verfügbare Ressourcen.
+        /// </summary>
+        internal static string Available_resources {
+            get {
+                return ResourceManager.GetString("Available resources", resourceCulture);
             }
         }
         
@@ -1079,6 +1097,15 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Belegte Ressourcen.
+        /// </summary>
+        internal static string Occupied_resources {
+            get {
+                return ResourceManager.GetString("Occupied resources", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to OK.
         /// </summary>
         internal static string OK {
@@ -1547,7 +1574,7 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Alle Tagungsräume anzeigen.
+        ///   Looks up a localized string similar to Alle Besprechungsräume.
         /// </summary>
         internal static string Show_all_meeting_rooms {
             get {
@@ -1565,7 +1592,7 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Nur nicht belegte Besprechungsräume anzeigen.
+        ///   Looks up a localized string similar to Nur ungenutzte Besprechungsräume.
         /// </summary>
         internal static string Show_only_unused_meeting_rooms {
             get {
@@ -1574,7 +1601,7 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Nur belegte Besprechungsräume anzeigen.
+        ///   Looks up a localized string similar to Nur genutzte Besprechungsräume.
         /// </summary>
         internal static string Show_only_used_meeting_rooms {
             get {
@@ -1960,6 +1987,15 @@ namespace TranslateTemplates {
         internal static string Today_s_reservations {
             get {
                 return ResourceManager.GetString("Today\'s reservations", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Belegte Ressourcen.
+        /// </summary>
+        internal static string Used_resources {
+            get {
+                return ResourceManager.GetString("Used resources", resourceCulture);
             }
         }
         

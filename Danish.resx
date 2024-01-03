@@ -132,6 +132,9 @@
   <data name="All day events are not support." xml:space="preserve">
     <value>Heldagsaftaler understøttes ikke.</value>
   </data>
+  <data name="All resources" xml:space="preserve">
+    <value>Alle ressourcer</value>
+  </data>
   <data name="An error encountered in synchronizing the template file from the server. Please see logs for more details." xml:space="preserve">
     <value>Der opstod en fejl under synkronisering af skabelonfilen fra serveren. Se logfiler for flere detaljer.</value>
   </data>
@@ -146,6 +149,9 @@
   </data>
   <data name="Available" xml:space="preserve">
     <value>Ledig</value>
+  </data>
+  <data name="Available resources" xml:space="preserve">
+    <value>Tilgængelige ressourcer</value>
   </data>
   <data name="Book New Meeting" xml:space="preserve">
     <value>Book nyt møde</value>
@@ -444,6 +450,9 @@
   <data name="Occupied" xml:space="preserve">
     <value>Optaget</value>
   </data>
+  <data name="Occupied resources" xml:space="preserve">
+    <value>Brugte ressourcer</value>
+  </data>
   <data name="OCCUPIED {0} - {1}" xml:space="preserve">
     <value>OPTAGET INDTIL {0} - {1}</value>
   </data>
@@ -607,10 +616,10 @@
     <value>Vis alle mødelokaler</value>
   </data>
   <data name="Show only unused meeting rooms" xml:space="preserve">
-    <value>Vis kun ledige mødelokaler</value>
+    <value>Vis kun ubrugte mødelokaler</value>
   </data>
   <data name="Show only used meeting rooms" xml:space="preserve">
-    <value>Vis kun optaget mødelokaler</value>
+    <value>Vis kun brugte mødelokaler</value>
   </data>
   <data name="Something went wrong in communication with the Server. Please check connection." xml:space="preserve">
     <value>Noget gik galt i komunikationen med serveren. Kontroller venligst forbindelsen.</value>
@@ -737,6 +746,9 @@
   </data>
   <data name="Today's reservations" xml:space="preserve">
     <value>Dagens reservationer</value>
+  </data>
+  <data name="Used resources" xml:space="preserve">
+    <value>Brugte ressourcer</value>
   </data>
   <data name="User name" xml:space="preserve">
     <value>Brugernavn</value>

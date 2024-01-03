@@ -124,6 +124,15 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 所有资源.
+        /// </summary>
+        internal static string All_resources {
+            get {
+                return ResourceManager.GetString("All resources", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to An error occurred while sending configuration data to the server. See logs for more details..
         /// </summary>
         internal static string An_error_encountered_in_synchronizing_the_template_file_from_the_server__Please_see_logs_for_more_details_ {
@@ -168,6 +177,15 @@ namespace TranslateTemplates {
         internal static string Available {
             get {
                 return ResourceManager.GetString("Available", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 可用资源.
+        /// </summary>
+        internal static string Available_resources {
+            get {
+                return ResourceManager.GetString("Available resources", resourceCulture);
             }
         }
         
@@ -1079,6 +1097,15 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 占用资源.
+        /// </summary>
+        internal static string Occupied_resources {
+            get {
+                return ResourceManager.GetString("Occupied resources", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 可以.
         /// </summary>
         internal static string OK {
@@ -1547,7 +1574,7 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Show all meeting rooms.
+        ///   Looks up a localized string similar to 显示所有会议室.
         /// </summary>
         internal static string Show_all_meeting_rooms {
             get {
@@ -1565,7 +1592,7 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 只显示未使用过的会议室.
+        ///   Looks up a localized string similar to 仅显示未用会议室.
         /// </summary>
         internal static string Show_only_unused_meeting_rooms {
             get {
@@ -1574,7 +1601,7 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 只显示使用过的会议室.
+        ///   Looks up a localized string similar to 仅显示已用会议室.
         /// </summary>
         internal static string Show_only_used_meeting_rooms {
             get {

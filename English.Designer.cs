@@ -1854,6 +1854,15 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Occupied resources.
+        /// </summary>
+        internal static string Used_resources {
+            get {
+                return ResourceManager.GetString("Used resources", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to User name.
         /// </summary>
         internal static string User_name {

@@ -132,6 +132,9 @@
   <data name="All day events are not support." xml:space="preserve">
     <value>All day events are not support.</value>
   </data>
+  <data name="All resources" xml:space="preserve">
+    <value>所有资源</value>
+  </data>
   <data name="An error encountered in synchronizing the template file from the server. Please see logs for more details." xml:space="preserve">
     <value>An error occurred while sending configuration data to the server. See logs for more details.</value>
   </data>
@@ -146,6 +149,9 @@
   </data>
   <data name="Available" xml:space="preserve">
     <value>可以使用</value>
+  </data>
+  <data name="Available resources" xml:space="preserve">
+    <value>可用资源</value>
   </data>
   <data name="Book New Meeting" xml:space="preserve">
     <value>预订新会议</value>
@@ -444,6 +450,9 @@
   <data name="Occupied" xml:space="preserve">
     <value>在使用中</value>
   </data>
+  <data name="Occupied resources" xml:space="preserve">
+    <value>占用资源</value>
+  </data>
   <data name="OCCUPIED {0} - {1}" xml:space="preserve">
     <value>使用中从 {0}到 {1}</value>
   </data>
@@ -601,16 +610,16 @@
     <value>服务器请求超时</value>
   </data>
   <data name="Show all meeting rooms" xml:space="preserve">
-    <value>Show all meeting rooms</value>
+    <value>显示所有会议室</value>
   </data>
   <data name="Show all rooms" xml:space="preserve">
     <value>显示所有会议室</value>
   </data>
   <data name="Show only unused meeting rooms" xml:space="preserve">
-    <value>只显示未使用过的会议室</value>
+    <value>仅显示未用会议室</value>
   </data>
   <data name="Show only used meeting rooms" xml:space="preserve">
-    <value>只显示使用过的会议室</value>
+    <value>仅显示已用会议室</value>
   </data>
   <data name="Something went wrong in communication with the Server. Please check connection." xml:space="preserve">
     <value>与服务器连接发生问题，请检查服务器连接情况</value>

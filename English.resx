@@ -702,6 +702,9 @@
   <data name="transparent" xml:space="preserve">
     <value>Transparent</value>
   </data>
+  <data name="Used resources" xml:space="preserve">
+    <value>Occupied resources</value>
+  </data>
   <data name="User name" xml:space="preserve">
     <value>User name</value>
   </data>
