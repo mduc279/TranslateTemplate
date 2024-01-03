@@ -69,13 +69,20 @@ namespace TranslateTemplates
                     ResourceSet resourceSet = languageResource.GetResourceSet(CultureInfo.CurrentUICulture, true, true);
 
                     // Get nodes requiring translation
-                    var textNodes = doc.SelectNodes("//Text");
-                    var placeholderNodes = doc.SelectNodes("//Placeholder");
-                    var directoryAllNodes = doc.SelectNodes("//ShowAllRoomsText");
-                    var directoryOccupiedNodes = doc.SelectNodes("//ShowOnlyUsedMeetingRoomsText");
-                    var directoryAvailableNodes = doc.SelectNodes("//ShowOnlyUnusedMeetingRoomsText");
-                    var messageInfoNodes = doc.SelectNodes("//MessageInfo/*");
-                    var nodeList = textNodes.Cast<XmlNode>().Concat<XmlNode>(messageInfoNodes.Cast<XmlNode>()).Concat<XmlNode>(placeholderNodes.Cast<XmlNode>()).Concat<XmlNode>(directoryAllNodes.Cast<XmlNode>()).Concat<XmlNode>(directoryOccupiedNodes.Cast<XmlNode>()).Concat<XmlNode>(directoryAvailableNodes.Cast<XmlNode>());
+                    var listXPathToTranslate = new List<string> { 
+                        "//Text", 
+                        "//Placeholder", 
+                        "//ShowAllRoomsText", 
+                        "//ShowOnlyUsedMeetingRoomsText", 
+                        "//ShowOnlyUnusedMeetingRoomsText", 
+                        "//MessageInfo/*" 
+                    };
+                    IEnumerable<XmlNode> nodeList = new List<XmlNode>();
+                    foreach (var i in listXPathToTranslate)
+                    {
+                        var textNodes = doc.SelectNodes(i);
+                        nodeList = nodeList.Concat(textNodes.Cast<XmlNode>());
+                    }
 
                     // Begin translate
                     foreach (DictionaryEntry entry in resourceSet)
