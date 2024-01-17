@@ -762,6 +762,9 @@
   <data name="Very soon a new digital sign will be ready for use\nPlease wait while your new digital sign is being enrolled" xml:space="preserve">
     <value>In Kürze wird ein neues digitales Hinweisschild einsatzbereit sein\nBitte warten Sie, während Ihr neues digitales Hinweisschild registriert wird</value>
   </data>
+  <data name="Welcome {0}." xml:space="preserve">
+    <value>Willkommen {0}.</value>
+  </data>
   <data name="Welcome {0}. Your session will end 30 seconds after your last touch on the screen." xml:space="preserve">
     <value>Willkommen {0}. Ihre Sitzung endet 30 Sekunden nach Ihrer letzten Berührung auf dem Bildschirm.</value>
   </data>

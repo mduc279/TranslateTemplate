@@ -2028,6 +2028,15 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Bienvenue {0}..
+        /// </summary>
+        internal static string Welcome__0__ {
+            get {
+                return ResourceManager.GetString("Welcome {0}.", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Bienvenue {0}. Votre session se terminera 30 secondes après votre dernière pression sur l&apos;écran..
         /// </summary>
         internal static string Welcome__0___Your_session_will_end_30_seconds_after_your_last_touch_on_the_screen_ {
