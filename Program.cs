@@ -98,7 +98,7 @@ namespace TranslateTemplates
                     langText = XDocument.Parse(doc.OuterXml).ToString();
                     if (lang == "English") text = langText;
 
-                    var fileName = $@"{destinationFolder}\{item.Name.Replace("English", lang).Replace("4.3.5", "4.3.6")}";
+                    var fileName = $@"{destinationFolder}\{item.Name.Replace("English", lang).Replace("4.3.6", "4.4.1")}";
                     File.WriteAllText(fileName, langText);
                     Console.WriteLine($"Finished writing {fileName}");
                 }
@@ -117,7 +117,11 @@ namespace TranslateTemplates
             //var sourceFolder2 = @"D:\\AOD Projects\\DSS\\DefaultTemplates";
             //foreach (var item in Directory.GetDirectories(sourceFolder2))
             //{
-            //    Directory.Move(item, item.Replace("4.3.4", "4.3.5"));
+            //    Directory.Move(item, item.Replace("4.3.6", "4.4.1"));
+            //}
+            //foreach (var item in Directory.GetDirectories(sourceFolder))
+            //{
+            //    Directory.Move(item, item.Replace("4.3.6", "4.4.1"));
             //}
         }
     }

@@ -222,6 +222,9 @@
   <data name="Card ID or username / password not valid." xml:space="preserve">
     <value>Card ID or username / password not valid.</value>
   </data>
+  <data name="Change Location" xml:space="preserve">
+    <value>更改位置</value>
+  </data>
   <data name="Confirm" xml:space="preserve">
     <value>确认</value>
   </data>
@@ -602,6 +605,9 @@
   </data>
   <data name="Select Date" xml:space="preserve">
     <value>Select Date</value>
+  </data>
+  <data name="Select Location" xml:space="preserve">
+    <value>选择位置</value>
   </data>
   <data name="Sending heartbeat to server {0} failed." xml:space="preserve">
     <value>把heartbeat发送至服务器{0}失败</value>

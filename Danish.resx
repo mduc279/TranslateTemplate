@@ -222,6 +222,9 @@
   <data name="Card ID or username / password not valid." xml:space="preserve">
     <value>Kort ID eller brugernavn/kodeord ikke gyldigt.</value>
   </data>
+  <data name="Change Location" xml:space="preserve">
+    <value>Skift lokation</value>
+  </data>
   <data name="Confirm" xml:space="preserve">
     <value>Bekræft</value>
   </data>
@@ -602,6 +605,9 @@
   </data>
   <data name="Select Date" xml:space="preserve">
     <value>Vælg dato</value>
+  </data>
+  <data name="Select Location" xml:space="preserve">
+    <value>Vælg lokation</value>
   </data>
   <data name="Sending heartbeat to server {0} failed." xml:space="preserve">
     <value>Afsendelse af heartbeat til server {0} mislykkedes.</value>

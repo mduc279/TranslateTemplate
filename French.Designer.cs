@@ -397,6 +397,15 @@ namespace TranslateTemplates {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Changer d&apos;emplacement.
+        /// </summary>
+        internal static string Change_Location {
+            get {
+                return ResourceManager.GetString("Change Location", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Confirmer.
         /// </summary>
         internal static string Confirm {
@@ -1543,6 +1552,15 @@ namespace TranslateTemplates {
         internal static string Select_Date {
             get {
                 return ResourceManager.GetString("Select Date", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sélectionner l&apos;emplacement.
+        /// </summary>
+        internal static string Select_Location {
+            get {
+                return ResourceManager.GetString("Select Location", resourceCulture);
             }
         }
         
